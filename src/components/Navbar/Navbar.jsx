@@ -7,17 +7,27 @@ import DarkMode from "./DarkMode";
 export const MenuLinks = [
   {
     id: 1,
-    name: "About",
+    name: "Home",
     link: "/#about",
   },
   {
     id: 2,
-    name: "Services",
+    name: "Quienes Somos",
     link: "/#services",
   },
   {
     id: 3,
-    name: "Projects",
+    name: "Productos",
+    link: "/#projects",
+  },
+  {
+    id: 4,
+    name: "Educación financiera",
+    link: "/#projects",
+  },
+  {
+    id: 5,
+    name: "Contacto",
     link: "/#projects",
   },
 ];
@@ -42,7 +52,7 @@ const Navbar = () => {
           >
             <img src={Logo} alt="" className="w-5" />
             <span className="text-2xl sm:text-3xl font-semibold">
-              Digital agency
+              Atman Capital
             </span>
           </a>
           {/* Desktop view Navigation */}
@@ -58,7 +68,7 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-              <button className="primary-btn">Get in Touch</button>
+              {/* <button className="primary-btn">Get in Touch</button> */}
               <DarkMode />
             </ul>
           </nav>

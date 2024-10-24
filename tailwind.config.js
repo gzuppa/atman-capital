@@ -4,6 +4,9 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      backgroundImage: {
+        'hero': 'url("./src/assets/website/building.jpg")',
+      },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
