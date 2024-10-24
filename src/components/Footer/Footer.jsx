@@ -3,20 +3,12 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const FooterLinks = [
   {
-    title: "About",
+    title: "Aviso de privacidad",
     link: "/#about",
   },
   {
-    title: "Features",
+    title: "Términos y condiciones",
     link: "/#features",
-  },
-  {
-    title: "Works",
-    link: "/#works",
-  },
-  {
-    title: "Career",
-    link: "/#career",
   },
 ];
 const HelpLinks = [
@@ -54,29 +46,29 @@ const ResourcesLinks = [
 const Footer = () => {
   return (
     <div className="bg-dark text-white">
-      <section className="container py-10">
+      <section className="container py-10 font-montserrat">
         <div className=" grid md:grid-cols-3 py-5">
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-              Digital Agency
+            © 2023 Atman Capital
             </h1>
-            <p className="text-sm">
+            {/* <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
               consectetur adipisicing elit consectetur adipisicing elit ipsum
               dolor sit amet consectetur. adipisicing{" "}
-            </p>
+            </p> */}
             <br />
             {/* Social Handle */}
             <div className="flex items-center gap-4 mt-6">
-              <a href="#">
-                <FaInstagram className="text-2xl hover:text-primary duration-300" />
+              <a href="https://www.instagram.com/atman_credit/">
+                <FaInstagram className="text-2xl hover:text-principalAmber duration-300" />
+              </a>
+              <a href="https://www.facebook.com/people/Atman-Credit/61567102081598">
+                <FaFacebook className="text-2xl hover:text-principalAmber duration-300" />
               </a>
               <a href="#">
-                <FaFacebook className="text-2xl hover:text-primary duration-300" />
-              </a>
-              <a href="#">
-                <FaLinkedin className="text-2xl hover:text-primary duration-300" />
+                <FaLinkedin className="text-2xl hover:text-principalAmber duration-300" />
               </a>
             </div>
           </div>
@@ -85,13 +77,13 @@ const Footer = () => {
             <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Company
+                  Enlaces
                 </h1>
                 <ul className={`flex flex-col gap-3`}>
                   {FooterLinks.map((link) => (
                     <li
                       key={link.title}
-                      className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-400 "
+                      className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-principalAmber space-x-1 text-gray-400 "
                     >
                       <span>{link.title}</span>
                     </li>
@@ -99,8 +91,8 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="">
-              <div className="py-8 px-4 ">
+            <div class="flex flex-col gap-3 items-center justify-center">
+              {/* <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Help
                 </h1>
@@ -114,9 +106,12 @@ const Footer = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
+              <img class=" w-30 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="../src/assets/website/condusef-nobg-dimension.png" alt="cellphone"/>
+              <img class=" w-10 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="../src/assets/website/buro.png" alt="cellphone"/>
+              <img class=" w-20 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="../src/assets/website/cnvb.png" alt="cellphone"/>
             </div>
-            <div className="">
+            {/* <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Resources
@@ -132,7 +127,7 @@ const Footer = () => {
                   ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

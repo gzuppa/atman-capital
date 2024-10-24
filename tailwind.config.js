@@ -5,10 +5,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': 'url("./src/assets/website/building.jpg")',
+        'hero': 'url("./src/assets/website/build-hero.webp")',
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
         primary: "#6153CD",
@@ -17,6 +18,7 @@ export default {
           200: "#888883",
         },
         dark: "#111111",
+        principalAmber: "#d2a663"
       },
       container: {
         center: true,
@@ -27,5 +29,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-animated')],
 };

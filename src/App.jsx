@@ -5,8 +5,8 @@ import "aos/dist/aos.css";
 // Component import
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import BrandsLogo from "./components/BrandsLogo/BrandsLogo.jsx";
-import Services from "./components/Services/Services";
+import SecondSection from "./components/FirstPageSections/SecondSection.jsx";
+import ThirdSection from "./components/FirstPageSections/ThirdSection.jsx";
 import Testimonial from "./components/Testimonial/Testimonial";
 import BlogsComp from "./components/Blogs/BlogsComp.jsx";
 import Footer from "./components/Footer/Footer";
@@ -26,10 +26,10 @@ const App = () => {
     <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
       <Navbar />
       <Hero />
-      <BrandsLogo />
-      <Services />
-      <Testimonial />
-      <BlogsComp />
+      <SecondSection />
+      <ThirdSection />
+      {/* <Testimonial />
+      <BlogsComp /> */}
       <Footer />
     </div>
   );
