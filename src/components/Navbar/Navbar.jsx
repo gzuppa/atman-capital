@@ -13,7 +13,7 @@ export const MenuLinks = [
   {
     id: 2,
     name: "Quienes Somos",
-    link: "/#services",
+    link: "/services",
   },
   {
     id: 3,
