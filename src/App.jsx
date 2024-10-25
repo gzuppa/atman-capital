@@ -14,6 +14,7 @@ import AdvantageLoan from "./components/Products/SubSections/AdvantageLoan";
 import AtmanPay from "./components/Products/SubSections/AtmanPay/AtmanPay";
 import People from "./components/Products/SubSections/AtmanPay/People";
 import Company from "./components/Products/SubSections/AtmanPay/Company";
+import CreditCard from "./components/Products/SubSections/AtmanPay/CreditCard";
  
 const App = () => {
 
@@ -40,6 +41,7 @@ const App = () => {
             <Route path="/productos/atman-pay" element={<AtmanPay />} />
             <Route path="/productos/atman-pay/personas" element={<People />} />
             <Route path="/productos/atman-pay/empresas" element={<Company />} />
+            <Route path="/productos/tarjeta" element={<CreditCard />} />
          </Routes>
       <Footer />
       </>
