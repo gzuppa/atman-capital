@@ -37,7 +37,7 @@ const FirstSection = () => {
                         </div>
                         <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer">ATMAN Pay</h1>
                         <div class="my-4">
-                            <NavLink to={"/productos/nomina"}><button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">Conoce más</button></NavLink>
+                            <NavLink to={"/productos/adelanto-nomina"}><button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">Conoce más</button></NavLink>
                         </div>
                     </div>
                     <div class="max-w-sm bg-white px-6 pt-10 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
