@@ -29,7 +29,7 @@ export const MenuLinks = [
   {
     id: 5,
     name: "Contacto",
-    link: "/#projects",
+    link: "/contacto",
   },
 ];
 const Navbar = () => {

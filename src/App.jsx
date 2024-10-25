@@ -16,6 +16,7 @@ import People from "./components/Products/SubSections/AtmanPay/People";
 import Company from "./components/Products/SubSections/AtmanPay/Company";
 import CreditCard from "./components/Products/SubSections/AtmanPay/CreditCard";
 import Educational from "./components/Products/SubSections/Educational";
+import Contact from "./components/Products/Contact";
 
 const App = () => {
 
@@ -44,6 +45,7 @@ const App = () => {
             <Route path="/productos/atman-pay/empresas" element={<Company />} />
             <Route path="/productos/tarjeta" element={<CreditCard />} />
             <Route path="/educational" element={<Educational />} />
+            <Route path="/contacto" element={<Contact />} />
          </Routes>
       <Footer />
       </>
