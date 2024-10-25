@@ -3,11 +3,14 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer"
+import WhoWeAre from "./components/WhoWeAre/WhoWeAre";
+import Products from "./components/Products/Products";
 // import About from './Pages/About';
 // import Products from './Pages/Products';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./index.css"; 
+import WorkLoan from "./components/Products/SubSections/WorkLoan";
  
 const App = () => {
 
@@ -26,8 +29,9 @@ const App = () => {
       <Navbar />
          <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/products" element={<Products />} />
-            <Route path="/about" element={<About />} /> */}
+            <Route path="/quienes-somos" element={<WhoWeAre />} />
+            <Route path="/productos" element={<Products />} />
+            <Route path="/productos/nomina" element={<WorkLoan />} />
          </Routes>
       <Footer />
       </>

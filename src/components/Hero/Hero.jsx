@@ -1,12 +1,9 @@
 import React from "react"
-import Button from '@mui/material/Button'
 import { Stack } from "@mui/system"
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline'
 
 const Hero = () => {
 
   return (
-    <div>
     <div class="min-h-screen flex justify-center items-center bg-hero bg-fixed bg-no-repeat bg-cover bg-center">
       <Stack spacing={2}>
         <h1 class="font-montserrat text-4xl text-white font-bold">Atman Capital</h1>
@@ -27,7 +24,6 @@ const Hero = () => {
         </button>
       </Stack>
       
-    </div>
     </div>
   );
 };

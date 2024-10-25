@@ -107,9 +107,7 @@ const Footer = () => {
                   ))}
                 </ul>
               </div> */}
-              <img class=" w-30 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="../src/assets/website/condusef-nobg-dimension.png" alt="cellphone"/>
-              <img class=" w-10 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="../src/assets/website/buro.png" alt="cellphone"/>
-              <img class=" w-20 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="../src/assets/website/cnvb.png" alt="cellphone"/>
+              <img class="w-20 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="../src/assets/website/buro.png" alt="cellphone"/>
             </div>
             {/* <div className="">
               <div className="py-8 px-4 ">
