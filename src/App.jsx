@@ -11,6 +11,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./index.css"; 
 import WorkLoan from "./components/Products/SubSections/WorkLoan";
+import Domiciliated from "./components/Products/SubSections/Domiciliated";
  
 const App = () => {
 
@@ -32,6 +33,7 @@ const App = () => {
             <Route path="/quienes-somos" element={<WhoWeAre />} />
             <Route path="/productos" element={<Products />} />
             <Route path="/productos/nomina" element={<WorkLoan />} />
+            <Route path="/productos/domiciliacion" element={<Domiciliated />} />
          </Routes>
       <Footer />
       </>
