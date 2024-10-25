@@ -24,7 +24,7 @@ export const MenuLinks = [
   {
     id: 4,
     name: "Educación financiera",
-    link: "/#projects",
+    link: "/educational",
   },
   {
     id: 5,
