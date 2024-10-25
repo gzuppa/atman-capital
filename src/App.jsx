@@ -11,6 +11,9 @@ import "./index.css";
 import WorkLoan from "./components/Products/SubSections/WorkLoan";
 import Domiciliated from "./components/Products/SubSections/Domiciliated";
 import AdvantageLoan from "./components/Products/SubSections/AdvantageLoan";
+import AtmanPay from "./components/Products/SubSections/AtmanPay/AtmanPay";
+import People from "./components/Products/SubSections/AtmanPay/People";
+import Company from "./components/Products/SubSections/AtmanPay/Company";
  
 const App = () => {
 
@@ -34,6 +37,9 @@ const App = () => {
             <Route path="/productos/nomina" element={<WorkLoan />} />
             <Route path="/productos/domiciliacion" element={<Domiciliated />} />
             <Route path="/productos/adelanto-nomina" element={<AdvantageLoan />} />
+            <Route path="/productos/atman-pay" element={<AtmanPay />} />
+            <Route path="/productos/atman-pay/personas" element={<People />} />
+            <Route path="/productos/atman-pay/empresas" element={<Company />} />
          </Routes>
       <Footer />
       </>
