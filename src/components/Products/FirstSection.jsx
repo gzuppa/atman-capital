@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 
 const FirstSection = () => {
   return (
-    <div class="py-10 bg-gradient-to-tr bg-gray-50 dark:bg-gray-800 flex justify-center items-center font-montserrat">
+    <div class="py-10 bg-gradient-to-tr bg-gray-50 dark:bg-gray-800 flex justify-center items-center font-montserrat" data-aos="fade-down">
         <Stack>
             <Stack alignItems={'center'}>
                 <h1 class="mt-4 text-gray-900 dark:text-white text-3xl font-bold">Portafolio de productos y servicios financieros</h1>
