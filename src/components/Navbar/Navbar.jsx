@@ -51,7 +51,7 @@ const Navbar = () => {
             href="/"
             className="flex items-center gap-3"
           >
-            <img src={Logo} alt="" className="w-5" />
+            {/* <img src={Logo} alt="" className="w-5" /> */}
             <span className="text-2xl sm:text-3xl font-semibold">
               Atman Capital
             </span>
