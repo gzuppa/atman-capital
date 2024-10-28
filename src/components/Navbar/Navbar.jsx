@@ -53,7 +53,7 @@ const Navbar = () => {
           >
             {/* <img src={Logo} alt="" className="w-5" /> */}
             <span className="text-2xl sm:text-3xl font-semibold">
-              Atman Capital
+              Atman Credit
             </span>
           </a>
           {/* Desktop view Navigation */}

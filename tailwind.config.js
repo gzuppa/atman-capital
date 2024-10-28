@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': 'url("./src/assets/website/buildinghero.jpg")',
+        'hero': 'url("https://res.cloudinary.com/gusironhack/image/upload/v1730137743/Atman/building_hero.jpg")',
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

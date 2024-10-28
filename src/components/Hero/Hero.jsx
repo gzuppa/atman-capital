@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div class="min-h-screen flex justify-center items-center bg-hero bg-fixed bg-no-repeat bg-cover bg-center">
       <Stack spacing={2}>
-        <h1 class="font-montserrat text-4xl text-white font-bold">Atman Capital</h1>
+        <h1 class="font-montserrat text-4xl text-white font-bold">Atman Credit</h1>
         <h1 class="font-montserrat text-1xl text-white text-center">Empoderamos tus finanzas</h1>
         <button
           class="dark:brightness-100 group hover:shadow-lg hover:shadow-yellow-700/60 transition ease-in-out hover:scale-105 p-1 rounded-xl bg-gradient-to-br from-yellow-800 via-yellow-600 to-yellow-800 hover:from-yellow-700 hover:via-yellow-800 hover:to-yellow-600"

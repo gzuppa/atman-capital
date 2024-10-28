@@ -5,7 +5,7 @@ const ThirdSection = () => {
             <div class="col-span-2 mb-8">
                 <p class="animate-fade-right animate-once text-lg font-medium text-principalAmber dark:text-principalAmber">Confianza en tus finanzas</p>
                 <h2 class="animate-fade-right mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">Portafolio de productos y servicios financieros</h2>
-                <p class="animate-fade-right font-light text-gray-500 sm:text-xl dark:text-gray-400">El objetivo de ATMAN Capital es convertirse en el líder del sector Fintech a través del portafolio de servicios y productos financieros digitales que permita maximizar el volumen de negocios y su rentabilidad.</p>
+                <p class="animate-fade-right font-light text-gray-500 sm:text-xl dark:text-gray-400">El objetivo de ATMAN Credit es convertirse en el líder del sector Fintech a través del portafolio de servicios y productos financieros digitales que permita maximizar el volumen de negocios y su rentabilidad.</p>
                 <div class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
                     <div>
                       <a href="#" class="animate-fade-right inline-flex items-center text-base font-medium text-principalAmber hover:text-purple-800 dark:text-principalAmber dark:hover:text-purple-700">

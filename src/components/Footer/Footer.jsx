@@ -53,7 +53,7 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-            © 2023 Atman Capital
+            © 2023 Atman Credit
             </h1>
             <p className="text-sm">
               Blvd. Manuel Ávila Camacho 40, Lomas de Chapultepec III Secc, Miguel Hidlgo, 11000, CDMX{" "}
@@ -107,7 +107,7 @@ const Footer = () => {
                   ))}
                 </ul>
               </div> */}
-              <img class="w-20 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="../src/assets/website/buro.png" alt="cellphone"/>
+              <img class="w-20 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138077/Atman/buro.png" alt="cellphone"/>
             </div>
             {/* <div className="">
               <div className="py-8 px-4 ">
