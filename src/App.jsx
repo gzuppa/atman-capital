@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer"
 import WhoWeAre from "./components/WhoWeAre/WhoWeAre";
 import Products from "./components/Products/Products";
+import Terms from "./components/Terms/Terms";
+import Privacy from "./components/Terms/Privacy";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./index.css"; 
@@ -46,6 +48,8 @@ const App = () => {
             <Route path="/productos/tarjeta" element={<CreditCard />} />
             <Route path="/educational" element={<Educational />} />
             <Route path="/contacto" element={<Contact />} />
+            <Route path="/terminos" element={<Terms />} />
+            <Route path="/aviso" element={<Privacy />} />
          </Routes>
       <Footer />
       </>

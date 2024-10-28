@@ -1,48 +1,50 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const FooterLinks = [
   {
     title: "Aviso de privacidad",
-    link: "/#about",
+    link: "/aviso",
   },
   {
     title: "Términos y condiciones",
-    link: "/#features",
+    link: "/terminos",
   },
 ];
-const HelpLinks = [
-  {
-    title: "Customer Support",
-    link: "/#support",
-  },
-  {
-    title: "Delivery Details",
-    link: "/#delivery-details",
-  },
-  {
-    title: "Terms & Conditions",
-    link: "/#terms",
-  },
-  {
-    title: "Privacy Policy",
-    link: "/#policy",
-  },
-];
-const ResourcesLinks = [
-  {
-    title: "Free Ebooks",
-    link: "/#ebooks",
-  },
-  {
-    title: "How To Blog",
-    link: "/#blogs",
-  },
-  {
-    title: "Subscribe TCJ",
-    link: "https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ?sub_confirmation=1",
-  },
-];
+// const HelpLinks = [
+//   {
+//     title: "Customer Support",
+//     link: "/#support",
+//   },
+//   {
+//     title: "Delivery Details",
+//     link: "/#delivery-details",
+//   },
+//   {
+//     title: "Terms & Conditions",
+//     link: "/terminos",
+//   },
+//   {
+//     title: "Privacy Policy",
+//     link: "/#policy",
+//   },
+// ];
+// const ResourcesLinks = [
+//   {
+//     title: "Free Ebooks",
+//     link: "/#ebooks",
+//   },
+//   {
+//     title: "How To Blog",
+//     link: "/#blogs",
+//   },
+//   {
+//     title: "Subscribe TCJ",
+//     link: "https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ?sub_confirmation=1",
+//   },
+// ];
+
 const Footer = () => {
   return (
     <div className="bg-dark text-white">
@@ -83,7 +85,7 @@ const Footer = () => {
                       key={link.title}
                       className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-principalAmber space-x-1 text-gray-400 "
                     >
-                      <span>{link.title}</span>
+                      <NavLink to={link.link} className="text-md font-medium hover:text-primary py-2 hover:border-primary transition-colors duration-500">{link.title}</NavLink>
                     </li>
                   ))}
                 </ul>
