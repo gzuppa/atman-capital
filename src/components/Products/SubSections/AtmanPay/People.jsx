@@ -6,14 +6,14 @@ const People = () => {
     <>
     <div className="px-4 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat bg-gray-50 dark:bg-gray-800">
     <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-      <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+      <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto pt-6 lg:pt-0">
         <span className="relative inline-block">
           <span className="relative font-montserrat text-gray-900 dark:text-white">ATMAN Pay Personas</span>
         </span>
       </h2>
-      <NavLink to={"/"}><button class="mt-4 text-sm w-40 text-white bg-principalAmber py-2 rounded-xl shadow-lg">Quiero la app</button></NavLink>
+      {/* <NavLink to={"/"}><button class="mt-4 text-sm w-40 text-white bg-principalAmber py-2 rounded-xl shadow-lg">Quiero la app</button></NavLink> */}
     </div>
-    <div className="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x text-gray-900 dark:text-white">
+    <div className="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x text-gray-900 dark:text-white px-6 lg:px-0 pb-6 lg:pb-0">
       <div className="space-y-6 sm:px-16">
         <div className="flex flex-col max-w-md sm:flex-row">
           <div className="mb-4 mr-4">

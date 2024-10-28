@@ -5,12 +5,12 @@ const Domiciliated = () => {
     return (
         <Stack class="font-montserrat">
             <Stack class="bg-gray-50 dark:bg-gray-800 text-center">
-                <h1 class="pt-10 text-gray-900 dark:text-white text-4xl font-bold">Créditos vía domiciliación</h1>
+                <h1 class="pt-10 text-gray-900 dark:text-white text-4xl font-bold pb-6 lg:pb-0">Créditos vía domiciliación</h1>
             </Stack>
             <Stack>
                 <section class="bg-gray-50 dark:bg-gray-800" data-aos="fade-up">
                     <div class="max-w-screen-xl px-4 mx-auto space-y-12 lg:space-y-20 lg:py-12 lg:px-6">
-                        <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                        <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16 px-4 lg:px-0">
                             <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                                 <h2 class="animate-fade-left mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Si tienes entre 18 y 65 años, domicilia tu crédito</h2>
                                 <p class="animate-fade-left mb-8 font-light lg:text-xl">Elige el plazo para pagarlo que más te convenga: 12, 18 o 24 meses.</p>
@@ -35,7 +35,7 @@ const Domiciliated = () => {
                     <div class="max-w-screen-xl px-4 mx-auto space-y-12 lg:space-y-20 lg:py-12 lg:px-6">
                         <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                         <img class=" w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="../src/assets/website/iphone-nobg.png" alt="cellphone"/>
-                            <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                            <div class="text-gray-500 sm:text-lg dark:text-gray-400 px-4 lg:px-0">
                                 <h2 class="animate-fade-left mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">No existe comisión por apertura y contarás con una tasa de interés anual fija.</h2>
                                 <p class="animate-fade-left mb-8 font-light lg:text-xl">Te garantizamos una respuesta en máximo 24 horas con mínimos requisitos</p>
                                 <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">

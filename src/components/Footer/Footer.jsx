@@ -53,11 +53,9 @@ const Footer = () => {
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
             © 2023 Atman Capital
             </h1>
-            {/* <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit consectetur adipisicing elit ipsum
-              dolor sit amet consectetur. adipisicing{" "}
-            </p> */}
+            <p className="text-sm">
+              Blvd. Manuel Ávila Camacho 40, Lomas de Chapultepec III Secc, Miguel Hidlgo, 11000, CDMX{" "}
+            </p>
             <br />
             {/* Social Handle */}
             <div className="flex items-center gap-4 mt-6">

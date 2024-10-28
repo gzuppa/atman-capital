@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': 'url("./src/assets/website/build-hero.webp")',
+        'hero': 'url("./src/assets/website/buildinghero.jpg")',
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

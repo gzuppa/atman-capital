@@ -4,14 +4,14 @@ import { Stack } from "@mui/material"
 const WorkLoan = () => {
     return (
         <Stack class="font-montserrat">
-            <Stack class="bg-gray-50 dark:bg-gray-800 text-center">
-                <h1 class="pt-10 text-gray-900 dark:text-white text-4xl font-bold">Crédito con descuento vía nómina</h1>
+            <Stack class="bg-gray-50 dark:bg-gray-800 text-center px-2 lg:px-0">
+                <h1 class="pt-10 text-gray-900 dark:text-white text-4xl font-bold pb-6 lg:pb-0">Crédito con descuento vía nómina</h1>
             </Stack>
             <Stack>
                 <section class="bg-gray-50 dark:bg-gray-800" data-aos="fade-up">
                     <div class="max-w-screen-xl px-4 mx-auto space-y-12 lg:space-y-20 lg:py-12 lg:px-6">
                         <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                            <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                            <div class="text-gray-500 sm:text-lg dark:text-gray-400 px-4 lg:px-0">
                                 <h2 class="animate-fade-left mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Obtén el crédito que necesitas</h2>
                                 <p class="animate-fade-left mb-8 font-light lg:text-xl">Ahora puedes acceder a un crédito por descuento vía nómina para personas físicas, entre ellas, las que trabajan en el sector gubernamental ¡sin complicaciones!</p>
                                 <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
@@ -34,7 +34,7 @@ const WorkLoan = () => {
                     <div class="max-w-screen-xl px-4 mx-auto space-y-12 lg:space-y-20 lg:py-12 lg:px-6">
                         <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                         <img class=" w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="../src/assets/website/iphone-nobg.png" alt="cellphone"/>
-                            <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                            <div class="text-gray-500 sm:text-lg dark:text-gray-400 px-4 lg:px-0">
                                 <h2 class="animate-fade-left mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Nuestros créditos son la solución perfecta para tus necesidades financieras.</h2>
                                 <p class="animate-fade-left mb-8 font-light lg:text-xl">Con una tasa de interés fija del 3% o hasta el 4%, nuestros créditos son accesibles y fáciles de pagar. Además, no requieres aval ni garantías para obtener el préstamo que necesitas. (CAT).</p>
                                 <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
@@ -54,7 +54,7 @@ const WorkLoan = () => {
 
                 <section class="bg-white dark:bg-gray-900 font-montserrat" data-aos="fade-up">
                     <div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
-                        <div class="col-span-2 mb-8">
+                        <div class="col-span-2 mb-8 px-4 lg:px-0">
                             <p class="animate-fade-right animate-once text-lg font-medium text-principalAmber dark:text-principalAmber">Transparencia y confianza</p>
                             <h2 class="animate-fade-right mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">Trámite sencillo con requisitos mínimos.</h2>
                             <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
