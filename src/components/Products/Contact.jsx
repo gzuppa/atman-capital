@@ -1,39 +1,29 @@
-import { useState } from "react"
+import { useRef } from "react"
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
-    const [isSubmitting, setIsSubmitting] = useState(false)
-    const [stateMessage, setStateMessage] = useState(null)
+    const form = useRef();
 
-    const sendEmail = (e) => {
-        e.persist();
-        e.preventDefault()
-        setIsSubmitting(true)
-        emailjs
-            .sendForm(
-                process.env.REACT_APP_SERVICE_ID,
-                process.env.REACT_APP_TEMPLATE_ID,
-                e.target,
-                process.env.REACT_APP_PUBLIC_KEY
-            )
-            .then(
-                (result) => {
-                    setStateMessage('Message sent!');
-                    setIsSubmitting(false);
-                    setTimeout(() => {
-                    setStateMessage(null);
-                }, 5000)
-            },
-            (error) => {
-                    setStateMessage('Something went wrong, please try again later');
-                    setIsSubmitting(false);
-                    setTimeout(() => {
-                    setStateMessage(null);
-                }, 5000)
-            }
-            );
-        e.target.reset();
-    }
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "atman_testing",
+        "template_jtaw8pg",
+        form.current,
+        "eviTS58gEqDf_KsRM"
+      )
+      .then(
+        (result) => {
+          alert('message sent successfully...');
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
     return (
         <section class="body-font relative bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white font-montserrat">
@@ -43,23 +33,23 @@ const Contact = () => {
                     <p class="mx-auto text-base leading-relaxed lg:w-2/3">Estaremos encantados de ayudarte</p>
                 </div>
                 <div class="mx-auto md:w-2/3 lg:w-1/2">
-                    <form onSubmit={sendEmail}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div class="-m-2 flex flex-wrap">
                             <div class="w-1/2 p-2">
                                 <div class="relative">
-                                    <input type="text" id="name" name="name" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 dark:text-white placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Name" />
-                                    <label for="name" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">nombre</label>
+                                    <input type="text" id="user_name" name="user_name" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Name" />
+                                    <label for="user_name" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">nombre</label>
                                 </div>
                             </div>
                             <div class="w-1/2 p-2">
                                 <div class="relative">
-                                    <input type="email" id="email" name="email" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 dark:text-white placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-principalAmber" placeholder="Email" />
-                                    <label for="email" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">Email</label>
+                                    <input type="email" id="user_email" name="user_email" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Email" />
+                                    <label for="user_email" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">Email</label>
                                 </div>
                             </div>
                             <div class="mt-4 w-full p-2">
                                 <div class="relative">
-                                    <textarea id="message" name="message" class="peer h-32 w-full resize-none rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-6 text-gray-900 dark:text-white placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Message"></textarea>
+                                    <textarea id="message" name="message" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Message"></textarea>
                                     <label for="message" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">Mensaje</label>
                                 </div>
                             </div>
