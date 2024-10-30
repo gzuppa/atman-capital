@@ -27,12 +27,13 @@ const Contact = () => {
 
     return (
         <section class="body-font relative bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white font-montserrat">
-            <div class="container mx-auto px-5 py-24">
+            <div className="grid gap-5 row-gap-8 lg:grid-cols-2 py-5">
+                <div className="flex flex-col justify-center px-6 lg:px-0">
                 <div class="mb-12 flex w-full flex-col text-center">
                     <h1 class="title-font mb-4 text-2xl font-medium text-gray-900 dark:text-white sm:text-3xl">Contacta a un asesor</h1>
                     <p class="mx-auto text-base leading-relaxed lg:w-2/3">Estaremos encantados de ayudarte</p>
                 </div>
-                <div class="mx-auto md:w-2/3 lg:w-1/2">
+                <div class="mx-auto md:w-2/3">
                     <form ref={form} onSubmit={sendEmail}>
                         <div class="-m-2 flex flex-wrap">
                             <div class="w-1/2 p-2">
@@ -70,6 +71,10 @@ const Contact = () => {
                             </div>
                         </div>
                     </form>
+                </div>
+                </div>
+                <div>
+                    <img class=" w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="https://res.cloudinary.com/gusironhack/image/upload/v1730299479/call.jpg" alt="call"/>
                 </div>
             </div>
         </section>

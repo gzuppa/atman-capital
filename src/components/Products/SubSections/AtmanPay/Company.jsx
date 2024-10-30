@@ -56,7 +56,7 @@ const Company = () => {
           <div className="relative">
             <img
               className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
-              src="https://images.pexels.com/photos/3182796/pexels-photo-3182796.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://res.cloudinary.com/gusironhack/image/upload/v1730298685/office2.jpg"
               alt=""
             />
             <div className="absolute inset-0 bg-gray-800 bg-opacity-25" />
@@ -74,7 +74,7 @@ const Company = () => {
           <div className="relative">
             <img
               className="object-cover w-full h-64 rounded-t lg:h-80 xl:h-96"
-              src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://res.cloudinary.com/gusironhack/image/upload/v1730298757/office3.jpg"
               alt=""
             />
             <div className="absolute inset-0 bg-gray-800 bg-opacity-25" />

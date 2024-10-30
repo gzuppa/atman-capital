@@ -1,12 +1,27 @@
-import React from 'react'
+import { useIsVisible } from "../../../utils/useIsVisible";
 import { Stack } from "@mui/material"
 import "./index.css"; 
+import { useRef } from 'react';
 
 const Loans = () => {
+
+    const ref1 = useRef();
+    const isVisible1 = useIsVisible(ref1);
+    const ref2 = useRef();
+    const isVisible2 = useIsVisible(ref2);
+    const ref3 = useRef();
+    const isVisible3 = useIsVisible(ref3);
+    const ref4 = useRef();
+    const isVisible4 = useIsVisible(ref3);
+    const ref5 = useRef();
+    const isVisible5 = useIsVisible(ref3);
+    const ref6 = useRef();
+    const isVisible6 = useIsVisible(ref3);
+
     return (
         <Stack class="font-montserrat">
             <Stack class="bg-gray-50 dark:bg-gray-900 text-center px-2 lg:px-0">
-                <h1 class="pt-10 text-gray-900 dark:text-white text-4xl font-bold pb-6 lg:pb-0">Obten el crédito que necesitas</h1>
+                <h1 class="pt-10 text-gray-900 dark:text-white text-5xl font-bold pb-6 lg:pb-0">Obten el crédito que necesitas</h1>
                 <div class="lg:px-40">
                     <p class="mt-4 text-center text-gray-900 dark:text-white text-md">Ofrecemos créditos con descuento vía nómina o domiciliación bancaria a empleados que laboren en una Empresa o Dependencia Gubernamental y/o Privada</p>
                 </div>
@@ -222,7 +237,7 @@ const Loans = () => {
                     <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
                         <img
                             className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                            src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                            src="https://res.cloudinary.com/gusironhack/image/upload/v1730297450/office1.jpg"
                             alt=""
                         />
                         <div className="flex flex-col justify-center">
@@ -490,41 +505,41 @@ const Loans = () => {
                 <div class="timeline">
                 <h2 class="text-4xl font-extrabold text-center text-gray-700 dark:text-white mb-4">Proceso de cobranza</h2>
                     <div class="outer">
-                        <div class="card">
-                        <div class="info">
-                            <h3 class="title">1</h3>
-                            <p>Generación de listas de cobranza en sistema por periodo</p>
+                        <div ref={ref1} className={`card transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+                            <div class="info">
+                                <h3 class="title">1</h3>
+                                <p>Generación de listas de cobranza en sistema por periodo</p>
+                            </div>
                         </div>
+                        <div ref={ref2} className={`card transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
+                            <div class="info">
+                                <h3 class="title">2</h3>
+                                <p>Envío a cobro de layout a dependencias </p>
+                            </div>
                         </div>
-                        <div class="card">
-                        <div class="info">
-                            <h3 class="title">2</h3>
-                            <p>Envío a cobro de layout a dependencias </p>
+                        <div ref={ref3} className={`card transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
+                            <div class="info">
+                                <h3 class="title">3</h3>
+                                <p>Gestión de pagos y enteros</p>
+                            </div>
                         </div>
+                        <div ref={ref4} className={`card transition-opacity ease-in duration-700 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
+                            <div class="info">
+                                <h3 class="title">4</h3>
+                                <p>Aplicación de pagos </p>
+                            </div>
                         </div>
-                        <div class="card">
-                        <div class="info">
-                            <h3 class="title">3</h3>
-                            <p>Gestión de pagos y enteros</p>
+                        <div ref={ref5} className={`card transition-opacity ease-in duration-700 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
+                            <div class="info">
+                                <h3 class="title">5</h3>
+                                <p>Dictamen de cartera </p>
+                            </div>
                         </div>
-                        </div>
-                        <div class="card">
-                        <div class="info">
-                            <h3 class="title">4</h3>
-                            <p>Aplicación de pagos </p>
-                        </div>
-                        </div>
-                        <div class="card">
-                        <div class="info">
-                            <h3 class="title">5</h3>
-                            <p>Dictamen de cartera </p>
-                        </div>
-                        </div>
-                        <div class="card">
-                        <div class="info">
-                            <h3 class="title">6</h3>
-                            <p>Cobranza alterna en caso de falta de pago o bajo pago </p>
-                        </div>
+                        <div ref={ref6} className={`card transition-opacity ease-in duration-700 ${isVisible6 ? "opacity-100" : "opacity-0"}`}>
+                            <div class="info">
+                                <h3 class="title">6</h3>
+                                <p>Cobranza alterna en caso de falta de pago o bajo pago </p>
+                            </div>
                         </div>
                     </div>
                     </div>

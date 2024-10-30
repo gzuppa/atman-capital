@@ -47,7 +47,7 @@ const AtmanPay = () => {
                                     </a>
                                     </div>
                             </div>
-                            <img class=" w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="https://res.cloudinary.com/gusironhack/image/upload/v1730137990/Atman/iphone-nobg.png" alt="cellphone"/>
+                            <img class=" w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="https://res.cloudinary.com/gusironhack/image/upload/v1730261708/cell-atman.png" alt="cellphone"/>
                         </div>
                         
                     </div>
