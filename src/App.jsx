@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer"
@@ -19,6 +19,7 @@ import Company from "./components/Products/SubSections/AtmanPay/Company";
 import CreditCard from "./components/Products/SubSections/AtmanPay/CreditCard";
 import Educational from "./components/Products/SubSections/Educational";
 import Contact from "./components/Products/Contact";
+import ScrollToTop from "./utils/ScrollToTop";
 
 const App = () => {
 
@@ -34,24 +35,28 @@ const App = () => {
 
    return (
       <>
-      <Navbar />
-         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/quienes-somos" element={<WhoWeAre />} />
-            <Route path="/productos" element={<Products />} />
-            <Route path="/productos/nomina" element={<WorkLoan />} />
-            <Route path="/productos/domiciliacion" element={<Domiciliated />} />
-            <Route path="/productos/adelanto-nomina" element={<AdvantageLoan />} />
-            <Route path="/productos/atman-pay" element={<AtmanPay />} />
-            <Route path="/productos/atman-pay/personas" element={<People />} />
-            <Route path="/productos/atman-pay/empresas" element={<Company />} />
-            <Route path="/productos/tarjeta" element={<CreditCard />} />
-            <Route path="/educational" element={<Educational />} />
-            <Route path="/contacto" element={<Contact />} />
-            <Route path="/terminos" element={<Terms />} />
-            <Route path="/aviso" element={<Privacy />} />
-         </Routes>
-      <Footer />
+      {/* <Router> */}
+         <ScrollToTop>
+            <Navbar />
+               <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/quienes-somos" element={<WhoWeAre />} />
+                  <Route path="/productos" element={<Products />} />
+                  <Route path="/productos/nomina" element={<WorkLoan />} />
+                  <Route path="/productos/domiciliacion" element={<Domiciliated />} />
+                  <Route path="/productos/adelanto-nomina" element={<AdvantageLoan />} />
+                  <Route path="/productos/atman-pay" element={<AtmanPay />} />
+                  <Route path="/productos/atman-pay/personas" element={<People />} />
+                  <Route path="/productos/atman-pay/empresas" element={<Company />} />
+                  <Route path="/productos/tarjeta" element={<CreditCard />} />
+                  <Route path="/educational" element={<Educational />} />
+                  <Route path="/contacto" element={<Contact />} />
+                  <Route path="/terminos" element={<Terms />} />
+                  <Route path="/aviso" element={<Privacy />} />
+               </Routes>
+            <Footer />
+         </ScrollToTop>
+      {/* </Router> */}
       </>
    );
 };

@@ -61,7 +61,7 @@ const Navbar = () => {
             <ul className="flex items-center gap-8">
               {MenuLinks.map(({ id, name, link }) => (
                 <li key={id} className="py-4">
-                  <NavLink to={link} className="text-md font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500">{name}</NavLink>
+                  <NavLink to={link} className="text-md font-medium hover:text-principalAmber py-2 hover:border-b-2 hover:border-principalAmber transition-colors duration-500">{name}</NavLink>
                 </li>
               ))}
               {/* <button className="primary-btn">Get in Touch</button> */}
@@ -70,7 +70,7 @@ const Navbar = () => {
           </nav>
           {/* Mobile view Drawer  */}
           <div className="flex items-center gap-4 md:hidden ">
-            <DarkMode />
+            <DarkMode/>
             {/* Mobile Hamburger icon */}
             {showMenu ? (
               <HiMenuAlt1

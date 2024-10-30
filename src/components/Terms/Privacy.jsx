@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Privacy = () => {
   return (
     <div className="px-8 lg:px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:py-20 font-montserrat bg-gray-50 dark:bg-gray-900 ">

@@ -55,9 +55,9 @@ const Footer = () => {
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
             © 2023 Atman Credit
             </h1>
-            <p className="text-sm">
-              Blvd. Manuel Ávila Camacho 40, Lomas de Chapultepec III Secc, Miguel Hidlgo, 11000, CDMX{" "}
-            </p>
+            <a className="text-sm hover:text-principalAmber duration-300" href='https://www.google.com.mx/maps/search/Blvd.+Manuel+%C3%81vila+Camacho+40,+Lomas+de+Chapultepec+III+Secc,+Miguel+Hidlgo,+11000,+CDMX/@19.4311466,-99.2103181,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D'>
+              Blvd. Manuel Ávila Camacho 40, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11000, CDMX{" "}
+            </a>
             <br />
             {/* Social Handle */}
             <div className="flex items-center gap-4 mt-6">
@@ -85,13 +85,13 @@ const Footer = () => {
                       key={link.title}
                       className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-principalAmber space-x-1 text-gray-400 "
                     >
-                      <NavLink to={link.link} className="text-md font-medium hover:text-primary py-2 hover:border-primary transition-colors duration-500">{link.title}</NavLink>
+                      <NavLink to={link.link} className="text-md font-medium hover:text-principalAmber py-2 hover:border-primary transition-colors duration-500">{link.title}</NavLink>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
-            <div class="flex flex-col gap-3 items-center justify-center">
+            <div class="">
               {/* <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Help
@@ -107,7 +107,11 @@ const Footer = () => {
                   ))}
                 </ul>
               </div> */}
-              <img class="w-20 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138077/Atman/buro.png" alt="cellphone"/>
+            <div className="py-8 px-4 ">
+              <a target='_blank' href='https://www.burodecredito.com.mx/?utm_source=Google&utm_medium=PaidSearch&utm_campaign=Home_ing&gad_source=1&gclid=Cj0KCQjwj4K5BhDYARIsAD1Ly2qeVog7kLJHxLJh4mKxDIk89r2oFvX7cFT73IBoGhgavcj1NASWTo8aAhoAEALw_wcB'>
+                <img class="w-20 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138077/Atman/buro.png" alt="cellphone"/>
+              </a>
+            </div>
             </div>
             {/* <div className="">
               <div className="py-8 px-4 ">

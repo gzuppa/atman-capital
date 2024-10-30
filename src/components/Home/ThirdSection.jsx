@@ -6,7 +6,7 @@ const ThirdSection = () => {
                 <p class="animate-fade-right animate-once text-lg font-medium text-principalAmber dark:text-principalAmber">Confianza en tus finanzas</p>
                 <h2 class="animate-fade-right mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">Portafolio de productos y servicios financieros</h2>
                 <p class="animate-fade-right font-light text-gray-500 sm:text-xl dark:text-gray-400">El objetivo de ATMAN Credit es convertirse en el líder del sector Fintech a través del portafolio de servicios y productos financieros digitales que permita maximizar el volumen de negocios y su rentabilidad.</p>
-                <div class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
+                {/* <div class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
                     <div>
                       <a href="#" class="animate-fade-right inline-flex items-center text-base font-medium text-principalAmber hover:text-purple-800 dark:text-principalAmber dark:hover:text-purple-700">
                         Posible link 1
@@ -19,7 +19,7 @@ const ThirdSection = () => {
                           <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                       </a>
                       </div>
-                </div>
+                </div> */}
             </div>
             <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
                 <div>
