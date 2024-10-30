@@ -16,7 +16,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert('message sent successfully...');
+          alert('Mensaje enviado correctamente');
           console.log(result.text);
         },
         (error) => {
@@ -38,13 +38,25 @@ const Contact = () => {
                             <div class="w-1/2 p-2">
                                 <div class="relative">
                                     <input type="text" id="user_name" name="user_name" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Name" />
-                                    <label for="user_name" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">nombre</label>
+                                    <label for="user_name" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">Nombre</label>
                                 </div>
                             </div>
                             <div class="w-1/2 p-2">
                                 <div class="relative">
                                     <input type="email" id="user_email" name="user_email" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Email" />
                                     <label for="user_email" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">Email</label>
+                                </div>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <div class="relative mt-3">
+                                    <input type="text" id="product" name="product" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Producto de interés" />
+                                    <label for="product" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">Producto de interés</label>
+                                </div>
+                            </div>
+                            <div class="w-1/2 p-2 mt-3">
+                                <div class="relative">
+                                    <input type="phone" id="telefono" name="telefono" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Telefono" />
+                                    <label for="telefono" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">Teléfono</label>
                                 </div>
                             </div>
                             <div class="mt-4 w-full p-2">
