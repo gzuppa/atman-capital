@@ -51,10 +51,10 @@ const Navbar = () => {
             href="/"
             className="flex items-center gap-3"
           >
-            {/* <img src={Logo} alt="" className="w-5" /> */}
-            <span className="text-2xl sm:text-3xl font-semibold">
+            <img src='https://res.cloudinary.com/gusironhack/image/upload/v1730138318/Atman/atman.png' alt="" className="w-24 cursor-pointer" />
+            {/* <span className="text-2xl sm:text-3xl font-semibold">
               Atman Credit
-            </span>
+            </span> */}
           </a>
           {/* Desktop view Navigation */}
           <nav className="hidden md:block">

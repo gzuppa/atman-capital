@@ -10,7 +10,7 @@ import Privacy from "./components/Terms/Privacy";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./index.css"; 
-import WorkLoan from "./components/Products/SubSections/WorkLoan";
+import WorkLoan from "./components/Products/SubSections/Loans";
 import Domiciliated from "./components/Products/SubSections/Domiciliated";
 import AdvantageLoan from "./components/Products/SubSections/AdvantageLoan";
 import AtmanPay from "./components/Products/SubSections/AtmanPay/AtmanPay";
@@ -20,6 +20,7 @@ import CreditCard from "./components/Products/SubSections/AtmanPay/CreditCard";
 import Educational from "./components/Products/SubSections/Educational";
 import Contact from "./components/Products/Contact";
 import ScrollToTop from "./utils/ScrollToTop";
+import Loans from "./components/Products/SubSections/Loans";
 
 const App = () => {
 
@@ -42,7 +43,7 @@ const App = () => {
                   <Route path="/" element={<Home />} />
                   <Route path="/quienes-somos" element={<WhoWeAre />} />
                   <Route path="/productos" element={<Products />} />
-                  <Route path="/productos/nomina" element={<WorkLoan />} />
+                  <Route path="/productos/creditos" element={<Loans />} />
                   <Route path="/productos/domiciliacion" element={<Domiciliated />} />
                   <Route path="/productos/adelanto-nomina" element={<AdvantageLoan />} />
                   <Route path="/productos/atman-pay" element={<AtmanPay />} />

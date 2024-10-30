@@ -2,7 +2,7 @@ import React from 'react'
 import { Stack } from "@mui/material"
 import "./index.css"; 
 
-const WorkLoan = () => {
+const Loans = () => {
     return (
         <Stack class="font-montserrat">
             <Stack class="bg-gray-50 dark:bg-gray-900 text-center px-2 lg:px-0">
@@ -534,4 +534,4 @@ const WorkLoan = () => {
     )
 }
 
-export default WorkLoan
+export default Loans

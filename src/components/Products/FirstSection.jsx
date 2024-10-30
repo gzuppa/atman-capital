@@ -12,17 +12,17 @@ const FirstSection = () => {
                 </div>
             </Stack>
             <Stack>
-                <div class="md:px-4 md:grid md:grid-cols-1 lg:grid-cols-4 lg:px-20 gap-5 space-y-">
-                    <div class="sm:max-w-fit bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+                <div class="md:px-4 md:grid md:grid-cols-1 lg:grid-cols-3 lg:px-20 gap-5 space-y-">
+                    <div class="bg-white px-12 lg:px-16 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
                         <div class="relative">
                             <img class="w-full h-80 rounded-xl" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138179/Atman/products1.png" alt="Colors" />
                         </div>
-                        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer">Crédito vía nómina</h1>
+                        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer">Créditos</h1>
                         <div class="my-4">
-                            <NavLink to={"/productos/nomina"}><button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">Conoce más</button></NavLink>
+                            <NavLink to={"/productos/creditos"}><button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">Conoce más</button></NavLink>
                         </div> 
                     </div>
-                    <div class="sm:max-w-fit bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+                    {/* <div class="sm:max-w-fit bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
                         <div class="relative">
                             <img class="w-full h-80 rounded-xl" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/products4.jpg" alt="Colors" />
                         </div>
@@ -30,8 +30,8 @@ const FirstSection = () => {
                         <div class="my-4">
                             <NavLink to={"/productos/domiciliacion"}><button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">Conoce más</button></NavLink>
                         </div>
-                    </div>
-                    <div class="sm:max-w-fit bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+                    </div> */}
+                    <div class="bg-white px-12 lg:px-16 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
                         <div class="relative">
                             <img class="w-full h-80 rounded-xl" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/product2.png" alt="Colors" />
                         </div>
@@ -40,7 +40,7 @@ const FirstSection = () => {
                             <NavLink to={"/productos/atman-pay"}><button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">Conoce más</button></NavLink>
                         </div>
                     </div>
-                    <div class="sm:max-w-fit bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+                    <div class="bg-white px-12 lg:px-16 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
                         <div class="relative">
                             <img class="w-full h-80 rounded-xl" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138171/Atman/products3.jpg" alt="Colors" />
                         </div>
