@@ -1,7 +1,7 @@
 const Consulting = () => {
   return (
     <>
-    <div className="bg-gray-50 dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
+    <div className="bg-gray-50 dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat" data-aos="fade-up">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <h2 className="mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 dark:text-white sm:text-4xl md:mx-auto">
                 Consultoría y administración de portafolios y cobranza especializada
@@ -49,7 +49,7 @@ const Consulting = () => {
     </div>
 
 
-      <div className="bg-gray-50 dark:bg-gray-900 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
+      <div data-aos="fade-up" className="bg-gray-50 dark:bg-gray-900 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-6xl md:mb-12">
           <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 dark:text-white sm:text-4xl md:mx-auto">
             Metodología de servicio
@@ -140,7 +140,7 @@ const Consulting = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
+      <div data-aos="fade-up" className="bg-gray-50 dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-6xl md:mb-12">
           <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 dark:text-white sm:text-4xl md:mx-auto">
             Nuestros servicios
@@ -469,7 +469,7 @@ const Consulting = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 dark:bg-gray-900 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-16 lg:py-20 font-montserrat">
+      <div data-aos="fade-up" className="bg-gray-50 dark:bg-gray-900 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-16 lg:py-20 font-montserrat">
         <div className="flex flex-col lg:flex-row">
           <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
             <h2 className="mb-5 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl sm:leading-none">
@@ -486,7 +486,7 @@ const Consulting = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
+      <div data-aos="fade-up" className="bg-gray-50 dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="lg:pr-10">
             <h5 className="mb-4 text-4xl font-extrabold leading-none">
@@ -526,7 +526,7 @@ const Consulting = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 dark:bg-gray-900 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-16 lg:py-20 font-montserrat">
+      <div data-aos="fade-up" className="bg-gray-50 dark:bg-gray-900 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-16 lg:py-20 font-montserrat">
         <div className="flex flex-col lg:flex-row">
           <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
             <h2 className="mb-5 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl sm:leading-none">

@@ -20,7 +20,7 @@ const Loans = () => {
 
     return (
         <Stack class="font-montserrat">
-            <Stack class="bg-gray-50 dark:bg-gray-900 text-center px-2 lg:px-0">
+            <Stack data-aos="fade-up"  class="bg-gray-50 dark:bg-gray-900 text-center px-2 lg:px-0">
                 <h1 class="pt-10 text-gray-900 dark:text-white text-5xl font-bold pb-6 lg:pb-0">Obten el crédito que necesitas</h1>
                 <div class="lg:px-40">
                     <p class="mt-4 text-center text-gray-900 dark:text-white text-md">Ofrecemos créditos con descuento vía nómina o domiciliación bancaria a empleados que laboren en una Empresa o Dependencia Gubernamental y/o Privada</p>
@@ -130,7 +130,7 @@ const Loans = () => {
                     </div>
                 </section> */}
 
-                <div className="bg-gray-50 dark:bg-gray-900 px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:py-12 font-montserrat text-gray-500 dark:text-gray-400">
+                <div data-aos="fade-up" className="bg-gray-50 dark:bg-gray-900 px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:py-12 font-montserrat text-gray-500 dark:text-gray-400">
                     <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
                         <div className="flex flex-col justify-center">
                         <div className="max-w-xl mb-6 font-montserrat">
@@ -553,7 +553,7 @@ const Loans = () => {
                 </section> */}
 
 
-                <div class="py-12 bg-white dark:bg-gray-700 font-montserrat">
+                <div data-aos="fade-up"  class="py-12 bg-white dark:bg-gray-700 font-montserrat">
                     <section>
                         <h2 class="text-4xl font-extrabold text-center text-gray-700 dark:text-white">Beneficios</h2>
                         <div class="content-center lg:flex lg:justify-center lg:items-center">
@@ -569,7 +569,7 @@ const Loans = () => {
                                         </div>
                                     </div>
                                     <div class="absolute top-0 left-0 z-20 w-12 h-12 mt-6 ml-6 bg-white rounded-full">
-                                        <svg class="mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#e53e3e"
+                                        <svg class="mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000"
                                             width="32px" height="32px">
                                             <path d="M0 0h24v24H0z" fill="none" />
                                             <path
@@ -577,9 +577,9 @@ const Loans = () => {
                                         </svg>
                                     </div>
                                     <div
-                                        class="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-red-600 rounded-lg">
+                                        class="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-gray-900 rounded-lg">
                                         01</div>
-                                    <div class="absolute top-0 left-0 z-30 w-24 h-2 mt-48 ml-48 bg-red-600"></div>
+                                    <div class="absolute top-0 left-0 z-30 w-24 h-2 mt-48 ml-48 bg-gray-900"></div>
                                 </div>
                             </div>
                             <div class="flex justify-center pt-10 m-auto lg:w-1/4 lg:mx-6 lg:my-8">
@@ -594,7 +594,7 @@ const Loans = () => {
                                     </div>
                                     <div class="absolute top-0 left-0 z-20 w-12 h-12 mt-6 ml-6 bg-white rounded-full">
                                         <svg class="mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
-                                            viewBox="0 0 24 24" fill="#38a169" width="32px" height="32px">
+                                            viewBox="0 0 24 24" fill="#723e11" width="32px" height="32px">
                                             <g>
                                                 <rect fill="none" height="24" width="24" />
                                             </g>
@@ -611,9 +611,9 @@ const Loans = () => {
                                         </svg>
                                     </div>
                                     <div
-                                        class="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-green-600 rounded-lg">
+                                        class="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-yellow-900 rounded-lg">
                                         02</div>
-                                    <div class="absolute top-0 left-0 z-30 w-24 h-2 mt-48 ml-48 bg-green-600"></div>
+                                    <div class="absolute top-0 left-0 z-30 w-24 h-2 mt-48 ml-48 bg-yellow-900"></div>
                                 </div>
                             </div>
                             <div class="flex justify-center pt-10 m-auto lg:w-1/4 lg:mx-6 lg:my-8">
@@ -627,7 +627,7 @@ const Loans = () => {
                                         </div>
                                     </div>
                                     <div class="absolute top-0 left-0 z-20 w-12 h-12 mt-6 ml-6 bg-white rounded-full">
-                                        <svg class="mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#3182ce"
+                                        <svg class="mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#a16107"
                                             width="32px" height="32px">
                                             <path d="M0 0h24v24H0V0z" fill="none" />
                                             <path
@@ -635,9 +635,9 @@ const Loans = () => {
                                         </svg>
                                     </div>
                                     <div
-                                        class="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-blue-600 rounded-lg">
+                                        class="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-yellow-700 rounded-lg">
                                         03</div>
-                                    <div class="absolute top-0 left-0 z-30 w-24 h-2 mt-48  ml-48 bg-blue-600"></div>
+                                    <div class="absolute top-0 left-0 z-30 w-24 h-2 mt-48  ml-48 bg-yellow-700"></div>
                                 </div>
                             </div>
                             <div class="flex justify-center pt-10 m-auto lg:w-1/4 lg:mx-6 lg:my-8">
@@ -651,7 +651,7 @@ const Loans = () => {
                                         </div>
                                     </div>
                                     <div class="absolute top-0 left-0 z-20 w-12 h-12 mt-6 ml-6 bg-white rounded-full">
-                                        <svg class="mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#3182ce"
+                                        <svg class="mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#d2a663"
                                             width="32px" height="32px">
                                             <path d="M0 0h24v24H0V0z" fill="none" />
                                             <path
@@ -659,9 +659,9 @@ const Loans = () => {
                                         </svg>
                                     </div>
                                     <div
-                                        class="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-indigo-600 rounded-lg">
+                                        class="absolute top-0 left-0 z-10 w-24 h-40 py-20 text-5xl font-bold text-center text-white bg-principalAmber rounded-lg">
                                         04</div>
-                                    <div class="absolute top-0 left-0 z-30 w-24 h-2 mt-48  ml-48 bg-indigo-600"></div>
+                                    <div class="absolute top-0 left-0 z-30 w-24 h-2 mt-48  ml-48 bg-principalAmber"></div>
                                 </div>
                             </div>
                         </div>
@@ -712,7 +712,7 @@ const Loans = () => {
                     </div>
                 </div> */}
             <div className="hidden md:block">
-                <img src="https://res.cloudinary.com/gusironhack/image/upload/v1730693857/cobranzatwotimes.gif" />
+                <img src="https://res.cloudinary.com/gusironhack/image/upload/v1730739583/cobranzagolden.gif" />
             </div>
             </Stack>
         </Stack>
