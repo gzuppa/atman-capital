@@ -354,6 +354,173 @@ const Loans = () => {
                     </div>
                 </div>
 
+
+                <div className="bg-gray-100 dark:bg-gray-900 px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:px-32 lg:py-20 font-montserrat">
+                    <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
+                        <div className="lg:w-1/2">
+                        <h2 className="max-w-md mb-6 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl sm:leading-none xl:max-w-lg">
+                            Requisitos
+                        </h2>
+                        </div>
+                    </div>
+                    <div className="text-gray-900 dark:text-white grid gap-8 row-gap-10 sm:grid-cols-2 lg:grid-cols-2">
+                        <div>
+                        <h6 className="mb-2 font-semibold leading-5">Domiciliación</h6>
+                        <ul className="mb-4 -ml-1 space-y-2">
+                            <li className="flex items-start">
+                            <span className="mr-1">
+                                <svg
+                                className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                                stroke="currentColor"
+                                viewBox="0 0 52 52"
+                                >
+                                <polygon
+                                    strokeWidth="4"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                />
+                                </svg>
+                            </span>
+                            Identificación oficial vigente
+                            </li>
+                            <li className="flex items-start">
+                            <span className="mr-1">
+                                <svg
+                                className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                                stroke="currentColor"
+                                viewBox="0 0 52 52"
+                                >
+                                <polygon
+                                    strokeWidth="4"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                />
+                                </svg>
+                            </span>
+                            Comprobante de domicilio
+                            </li>
+                            <li className="flex items-start">
+                            <span className="mr-1">
+                                <svg
+                                className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                                stroke="currentColor"
+                                viewBox="0 0 52 52"
+                                >
+                                <polygon
+                                    strokeWidth="4"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                />
+                                </svg>
+                            </span>
+                            Tener una cuenta bancaria
+                            </li>
+                        </ul>
+                        </div>
+                        <div>
+                        <h6 className="mb-2 font-semibold leading-5">Nómina</h6>
+                        <ul className="mb-4 -ml-1 space-y-2">
+                            <li className="flex items-start">
+                            <span className="mr-1">
+                                <svg
+                                className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                                stroke="currentColor"
+                                viewBox="0 0 52 52"
+                                >
+                                <polygon
+                                    strokeWidth="4"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                />
+                                </svg>
+                            </span>
+                            Registro Federal de Contribuyentes
+                            </li>
+                            <li className="flex items-start">
+                            <span className="mr-1">
+                                <svg
+                                className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                                stroke="currentColor"
+                                viewBox="0 0 52 52"
+                                >
+                                <polygon
+                                    strokeWidth="4"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                />
+                                </svg>
+                            </span>
+                            Identificación oficial vigente
+                            </li>
+                            <li className="flex items-start">
+                            <span className="mr-1">
+                                <svg
+                                className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                                stroke="currentColor"
+                                viewBox="0 0 52 52"
+                                >
+                                <polygon
+                                    strokeWidth="4"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                />
+                                </svg>
+                            </span>
+                            CURP
+                            </li>
+                            <li className="flex items-start">
+                            <span className="mr-1">
+                                <svg
+                                className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                                stroke="currentColor"
+                                viewBox="0 0 52 52"
+                                >
+                                <polygon
+                                    strokeWidth="4"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                />
+                                </svg>
+                            </span>
+                            Solicitud de crédito
+                            </li>
+                            <li className="flex items-start">
+                            <span className="mr-1">
+                                <svg
+                                className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                                stroke="currentColor"
+                                viewBox="0 0 52 52"
+                                >
+                                <polygon
+                                    strokeWidth="4"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    fill="none"
+                                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                />
+                                </svg>
+                            </span>
+                            Comprobante de domicilio
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+
                 {/* <section class="bg-white dark:bg-gray-900 font-montserrat" data-aos="fade-up">
                     <div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
                         <div class="col-span-2 mb-8 px-4 lg:px-0">
