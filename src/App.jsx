@@ -10,7 +10,6 @@ import Privacy from "./components/Terms/Privacy";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./index.css"; 
-import WorkLoan from "./components/Products/SubSections/Loans";
 import Domiciliated from "./components/Products/SubSections/Domiciliated";
 import AdvantageLoan from "./components/Products/SubSections/AdvantageLoan";
 import AtmanPay from "./components/Products/SubSections/AtmanPay/AtmanPay";
@@ -21,6 +20,7 @@ import Educational from "./components/Products/SubSections/Educational";
 import Contact from "./components/Products/Contact";
 import ScrollToTop from "./utils/ScrollToTop";
 import Loans from "./components/Products/SubSections/Loans";
+import Consulting from "./components/Products/SubSections/Consulting";
 
 const App = () => {
 
@@ -50,6 +50,7 @@ const App = () => {
                   <Route path="/productos/atman-pay/personas" element={<People />} />
                   <Route path="/productos/atman-pay/empresas" element={<Company />} />
                   <Route path="/productos/tarjeta" element={<CreditCard />} />
+                  <Route path="/productos/consultoria" element={<Consulting />} />
                   <Route path="/educational" element={<Educational />} />
                   <Route path="/contacto" element={<Contact />} />
                   <Route path="/terminos" element={<Terms />} />

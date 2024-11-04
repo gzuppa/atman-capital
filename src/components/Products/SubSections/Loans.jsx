@@ -5,18 +5,18 @@ import { useRef } from 'react';
 
 const Loans = () => {
 
-    const ref1 = useRef();
-    const isVisible1 = useIsVisible(ref1);
-    const ref2 = useRef();
-    const isVisible2 = useIsVisible(ref2);
-    const ref3 = useRef();
-    const isVisible3 = useIsVisible(ref3);
-    const ref4 = useRef();
-    const isVisible4 = useIsVisible(ref3);
-    const ref5 = useRef();
-    const isVisible5 = useIsVisible(ref3);
-    const ref6 = useRef();
-    const isVisible6 = useIsVisible(ref3);
+    // const ref1 = useRef();
+    // const isVisible1 = useIsVisible(ref1);
+    // const ref2 = useRef();
+    // const isVisible2 = useIsVisible(ref2);
+    // const ref3 = useRef();
+    // const isVisible3 = useIsVisible(ref3);
+    // const ref4 = useRef();
+    // const isVisible4 = useIsVisible(ref3);
+    // const ref5 = useRef();
+    // const isVisible5 = useIsVisible(ref3);
+    // const ref6 = useRef();
+    // const isVisible6 = useIsVisible(ref3);
 
     return (
         <Stack class="font-montserrat">
@@ -354,7 +354,7 @@ const Loans = () => {
                     </div>
                 </div>
 
-                <section class="bg-white dark:bg-gray-900 font-montserrat" data-aos="fade-up">
+                {/* <section class="bg-white dark:bg-gray-900 font-montserrat" data-aos="fade-up">
                     <div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
                         <div class="col-span-2 mb-8 px-4 lg:px-0">
                             <p class="animate-fade-right animate-once text-lg font-medium text-principalAmber dark:text-principalAmber">Transparencia y confianza</p>
@@ -383,10 +383,10 @@ const Loans = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
 
-                <div class="py-12 bg-gray-100 dark:bg-gray-700 font-montserrat">
+                <div class="py-12 bg-white dark:bg-gray-700 font-montserrat">
                     <section>
                         <h2 class="text-4xl font-extrabold text-center text-gray-700 dark:text-white">Beneficios</h2>
                         <div class="content-center lg:flex lg:justify-center lg:items-center">
@@ -501,49 +501,52 @@ const Loans = () => {
                     </section>
                 </div>
 
-                <div class="py-12 bg-gray-100 dark:bg-gray-900 font-montserrat flex justify-center">
-                <div class="timeline">
-                <h2 class="text-4xl font-extrabold text-center text-gray-700 dark:text-white mb-4">Proceso de cobranza</h2>
-                    <div class="outer">
-                        <div ref={ref1} className={`card transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
-                            <div class="info">
-                                <h3 class="title">1</h3>
-                                <p>Generación de listas de cobranza en sistema por periodo</p>
+                {/* <div class="py-12 bg-gray-100 dark:bg-gray-900 font-montserrat flex justify-center">
+                    <div class="timeline">
+                        <h2 class="text-4xl font-extrabold text-center text-gray-700 dark:text-white mb-4">Proceso de cobranza</h2>
+                        <div class="outer">
+                            <div ref={ref1} className={`card transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+                                <div class="info">
+                                    <h3 class="title">1</h3>
+                                    <p>Generación de listas de cobranza en sistema por periodo</p>
+                                </div>
                             </div>
-                        </div>
-                        <div ref={ref2} className={`card transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
-                            <div class="info">
-                                <h3 class="title">2</h3>
-                                <p>Envío a cobro de layout a dependencias </p>
+                            <div ref={ref2} className={`card transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
+                                <div class="info">
+                                    <h3 class="title">2</h3>
+                                    <p>Envío a cobro de layout a dependencias </p>
+                                </div>
                             </div>
-                        </div>
-                        <div ref={ref3} className={`card transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
-                            <div class="info">
-                                <h3 class="title">3</h3>
-                                <p>Gestión de pagos y enteros</p>
+                            <div ref={ref3} className={`card transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
+                                <div class="info">
+                                    <h3 class="title">3</h3>
+                                    <p>Gestión de pagos y enteros</p>
+                                </div>
                             </div>
-                        </div>
-                        <div ref={ref4} className={`card transition-opacity ease-in duration-700 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
-                            <div class="info">
-                                <h3 class="title">4</h3>
-                                <p>Aplicación de pagos </p>
+                            <div ref={ref4} className={`card transition-opacity ease-in duration-700 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
+                                <div class="info">
+                                    <h3 class="title">4</h3>
+                                    <p>Aplicación de pagos </p>
+                                </div>
                             </div>
-                        </div>
-                        <div ref={ref5} className={`card transition-opacity ease-in duration-700 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
-                            <div class="info">
-                                <h3 class="title">5</h3>
-                                <p>Dictamen de cartera </p>
+                            <div ref={ref5} className={`card transition-opacity ease-in duration-700 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
+                                <div class="info">
+                                    <h3 class="title">5</h3>
+                                    <p>Dictamen de cartera </p>
+                                </div>
                             </div>
-                        </div>
-                        <div ref={ref6} className={`card transition-opacity ease-in duration-700 ${isVisible6 ? "opacity-100" : "opacity-0"}`}>
-                            <div class="info">
-                                <h3 class="title">6</h3>
-                                <p>Cobranza alterna en caso de falta de pago o bajo pago </p>
+                            <div ref={ref6} className={`card transition-opacity ease-in duration-700 ${isVisible6 ? "opacity-100" : "opacity-0"}`}>
+                                <div class="info">
+                                    <h3 class="title">6</h3>
+                                    <p>Cobranza alterna en caso de falta de pago o bajo pago </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    </div>
-                </div>
+                </div> */}
+            <div className="hidden md:block">
+                <img src="https://res.cloudinary.com/gusironhack/image/upload/v1730693857/cobranzatwotimes.gif" />
+            </div>
             </Stack>
         </Stack>
     )
