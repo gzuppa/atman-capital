@@ -70,7 +70,7 @@ const Contact = () => {
                                 <div class="relative mt-3">
                                     {/* <input type="text" id="product" name="product" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Producto de interés" />
                                     <label for="product" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">Producto de interés</label> */}
-                                    <Select name="product" className="rounded border border-gray-500 bg-opacity-4" placeholder={'Producto de interés'} options={options} />
+                                    <Select name="product" className="rounded border border-gray-500" placeholder={'Producto de interés'} options={options} />
                                 </div>
                             </div>
                             <div class="w-1/2 p-2 mt-3">
