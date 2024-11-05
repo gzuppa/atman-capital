@@ -1,11 +1,20 @@
-import { useRef } from "react"
+import { useRef, useState } from "react"
 import emailjs from '@emailjs/browser';
+import Select from 'react-select'
+import { LoadingButton } from '@mui/lab';
+import { Button, CircularProgress } from '@mui/material';
 
 const Contact = () => {
 
     const form = useRef();
+    const [isLoading, setIsLoading] = useState(false)
+
+    const relocate = () => {
+        window.location.href = '/'
+    }
 
   const sendEmail = (e) => {
+    setIsLoading(true)
     e.preventDefault();
     emailjs
       .sendForm(
@@ -17,6 +26,8 @@ const Contact = () => {
       .then(
         (result) => {
           alert('Mensaje enviado correctamente');
+          setIsLoading(false)
+          relocate()
           console.log(result.text);
         },
         (error) => {
@@ -24,6 +35,13 @@ const Contact = () => {
         }
       );
   };
+
+  const options = [
+    { value: 'Créditos', label: 'Créditos' },
+    { value: 'Consultoría', label: 'Consultoría' },
+    { value: 'AtmanPay', label: 'ATMAN Pay' },
+    { value: 'Tarjeta', label: 'Tarjeta de crédito' }
+  ]
 
     return (
         <section class="body-font relative bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white font-montserrat">
@@ -50,8 +68,9 @@ const Contact = () => {
                             </div>
                             <div class="w-1/2 p-2">
                                 <div class="relative mt-3">
-                                    <input type="text" id="product" name="product" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Producto de interés" />
-                                    <label for="product" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">Producto de interés</label>
+                                    {/* <input type="text" id="product" name="product" class="peer w-full rounded border border-gray-700 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-900 placeholder-transparent outline-none transition-colors duration-200 ease-in-out" placeholder="Producto de interés" />
+                                    <label for="product" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-principalAmber transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-principalAmber">Producto de interés</label> */}
+                                    <Select name="product" className="rounded border border-gray-500 bg-opacity-4" placeholder={'Producto de interés'} options={options} />
                                 </div>
                             </div>
                             <div class="w-1/2 p-2 mt-3">
@@ -67,7 +86,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div class="w-full p-2">
-                                <button type='submit' value="Send" class="mx-auto flex rounded border-0 bg-principalAmber py-2 px-8 text-lg text-white hover:bg-principalAmber focus:outline-none">Enviar</button>
+                                <LoadingButton loading={isLoading} type='submit' value="Send" class="mx-auto flex rounded border-0 bg-principalAmber py-2 px-8 text-lg text-white hover:bg-principalAmber focus:outline-none">Enviar</LoadingButton>
                             </div>
                         </div>
                     </form>
