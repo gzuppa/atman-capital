@@ -706,7 +706,7 @@ const Loans = () => {
                         </div>
                     </div>
                 </div> */}
-            <div className="hidden md:block">
+            <div data-aos="fade-up" className="hidden md:block">
                 <img src="https://res.cloudinary.com/gusironhack/image/upload/v1730739583/cobranzagolden.gif" />
             </div>
             </Stack>

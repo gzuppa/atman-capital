@@ -486,7 +486,7 @@ const Consulting = () => {
         </div>
       </div>
 
-      <div data-aos="fade-up" className="bg-gray-50 dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
+      <div data-aos="fade-up" className="bg-white dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="lg:pr-10">
             <h5 className="mb-4 text-4xl font-extrabold leading-none">
@@ -504,7 +504,7 @@ const Consulting = () => {
           <div>
             <img
               className="object-cover  h-56 rounded sm:h-96"
-              src="https://res.cloudinary.com/gusironhack/image/upload/v1730698825/cobranza_alterna.png"
+              src="https://res.cloudinary.com/gusironhack/image/upload/v1730857799/cobranzaalterna1.gif"
               alt="cobranza"
             />
           </div>
