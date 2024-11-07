@@ -504,7 +504,7 @@ const Consulting = () => {
           <div>
             <img
               className="object-cover  h-56 rounded sm:h-96"
-              src="https://res.cloudinary.com/gusironhack/image/upload/v1730857799/cobranzaalterna1.gif"
+              src="https://res.cloudinary.com/gusironhack/image/upload/v1731022329/cobranzaanimatedgi.gif"
               alt="cobranza"
             />
           </div>
@@ -519,7 +519,7 @@ const Consulting = () => {
           <div>
             <img
               className="object-cover  h-56 rounded sm:h-96"
-              src="https://res.cloudinary.com/gusironhack/image/upload/v1730700802/CANALESDEPAGO.png"
+              src="https://res.cloudinary.com/gusironhack/image/upload/v1731022634/mediosdepago.gif"
               alt="canales"
             />
           </div>
