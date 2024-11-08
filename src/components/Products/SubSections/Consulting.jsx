@@ -486,7 +486,7 @@ const Consulting = () => {
         </div>
       </div>
 
-      <div data-aos="fade-up" className="bg-white dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
+      <div className="bg-white dark:bg-gray-800 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 font-montserrat">
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="lg:pr-10">
             <h5 className="mb-4 text-4xl font-extrabold leading-none">
@@ -510,23 +510,38 @@ const Consulting = () => {
           </div>
         </div>
 
-        <div className="grid gap-10 lg:grid-cols-2">
-          <div className="lg:pr-10 align-middle pt-52">
-            <p className="mb-6 text-gray-900 dark:text-white">
+        <div className="grid gap-10 lg:grid-cols-2 mt-16">
+          <div className="lg:pr-10 align-middle pt-48">
+            <p className="text-gray-900 dark:text-white">
             Para asegurar la efectividad de la cobranza contamos con distintos canales de cobro y convenios con instituciones bancarias
             </p>
           </div>
           <div className="hidden md:block">
             <img
-              className="object-cover rounded sm:h-4/5"
+              className="object-cover rounded"
               src="https://res.cloudinary.com/gusironhack/image/upload/v1731022634/mediosdepago.gif"
               alt="canales"
             />
           </div>
         </div>
+
+        <div className="flex flex-col lg:flex-row mt-10">
+          <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl sm:leading-none">
+              <span className="inline-block text-deep-purple-accent-400">
+                Sistema de administración de cartera (ERP)
+              </span>
+            </h2>
+          </div>
+          <div className="lg:w-1/2">
+            <p className="text-base text-gray-700 dark:text-gray-400">
+              En Atman Credit sabemos de la importancia de la tecnología en todos los procesos de la empresa, es por ello que ofrecemos tecnología vital para los negocios. Ofrecemos una alternativa de primer nivel para la administración de créditos otorgados y para la correcta administración de la cartera. En esta plataforma podremos: dictaminar, controlar y conciliar tu cartera, adicional puedes contar con acceso en tiempo real y nos adecuamos a todos los reportes necesarios para la mejor toma de decisiones de tu negocio.
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div data-aos="fade-up" className="bg-gray-50 dark:bg-gray-900 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-16 lg:py-20 font-montserrat">
+      {/* <div className="bg-gray-50 dark:bg-gray-900 px-4 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-16 lg:py-20 font-montserrat">
         <div className="flex flex-col lg:flex-row">
           <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
             <h2 className="mb-5 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl sm:leading-none">
@@ -541,7 +556,7 @@ const Consulting = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

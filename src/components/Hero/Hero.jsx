@@ -8,7 +8,8 @@ const Hero = () => {
       <Stack spacing={2}>
         <h1 class="font-montserrat text-5xl text-white font-bold">Atman Credit</h1>
         <h1 class="font-montserrat text-1xl text-white text-center">Empoderamos tus finanzas</h1>
-        <button
+        <a
+          href="/quienes-somos"
           class="dark:brightness-100 group hover:shadow-lg hover:shadow-yellow-700/60 transition ease-in-out hover:scale-105 p-1 rounded-xl bg-gradient-to-br from-yellow-800 via-yellow-600 to-yellow-800 hover:from-yellow-700 hover:via-yellow-800 hover:to-yellow-600"
         >
           <div
@@ -21,7 +22,7 @@ const Hero = () => {
               Más información
             </div>
           </div>
-        </button>
+        </a>
       </Stack>
       
     </div>
