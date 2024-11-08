@@ -501,7 +501,7 @@ const Consulting = () => {
               Analizamos tu cartera y desarrollamos la mejor estrategia de comunicación, anticipamos comportamientos de tus clientes para contactar en el momento y medios de cobranza más efectivos, para esto tenemos diferentes medios de cobro
             </p>
           </div>
-          <div>
+          <div className="hidden md:block">
             <img
               className="object-cover  h-56 rounded sm:h-96"
               src="https://res.cloudinary.com/gusironhack/image/upload/v1731022329/cobranzaanimatedgi.gif"
@@ -510,15 +510,15 @@ const Consulting = () => {
           </div>
         </div>
 
-        <div className="grid gap-10 lg:grid-cols-2 mt-10">
-          <div className="lg:pr-10 align-middle">
+        <div className="grid gap-10 lg:grid-cols-2">
+          <div className="lg:pr-10 align-middle pt-52">
             <p className="mb-6 text-gray-900 dark:text-white">
             Para asegurar la efectividad de la cobranza contamos con distintos canales de cobro y convenios con instituciones bancarias
             </p>
           </div>
-          <div>
+          <div className="hidden md:block">
             <img
-              className="object-cover  h-56 rounded sm:h-96"
+              className="object-cover rounded sm:h-4/5"
               src="https://res.cloudinary.com/gusironhack/image/upload/v1731022634/mediosdepago.gif"
               alt="canales"
             />
