@@ -706,7 +706,7 @@ const Loans = () => {
                         </div>
                     </div>
                 </div> */}
-            <div className="hidden text-center md:flex justify-center">
+            <div className="text-center md:flex justify-center">
                 <img src="https://res.cloudinary.com/gusironhack/image/upload/v1731024404/procesocobranza.gif" />
             </div>
             </Stack>
