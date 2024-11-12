@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div class="min-h-screen flex justify-center items-center bg-hero bg-fixed bg-no-repeat bg-cover bg-center">
       <Stack spacing={2}>
-        <h1 class="font-montserrat text-5xl text-white font-bold">Atman Credit</h1>
+        <h1 class="font-montserrat text-5xl text-white font-bold">Atman</h1>
         <h1 class="font-montserrat text-1xl text-white text-center">Empoderamos tus finanzas</h1>
         <a
           href="/quienes-somos"

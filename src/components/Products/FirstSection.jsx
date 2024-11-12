@@ -8,7 +8,7 @@ const FirstSection = () => {
             <Stack alignItems={'center'}>
                 <h1 class="mt-4 text-gray-900 dark:text-white text-3xl font-bold text-center">Portafolio de productos y servicios financieros</h1>
                 <div class="lg:px-40">
-                    <p class="mt-4 mb-12 text-center text-gray-900 dark:text-white text-md">El objetivo de ATMAN Credit es convertirse en el líder del sector Fintech a través del portafolio de servicios y productos financieros digitales que permita maximizar el volumen de negocios y su rentabilidad.</p>
+                    <p class="mt-4 mb-12 text-center text-gray-900 dark:text-white text-md">El objetivo de ATMAN es convertirse en el líder del sector Fintech a través del portafolio de servicios y productos financieros digitales que permita maximizar el volumen de negocios y su rentabilidad.</p>
                 </div>
             </Stack>
             <Stack>

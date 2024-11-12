@@ -55,7 +55,7 @@ const Consulting = () => {
             Metodología de servicio
           </h2>
           <p className="text-base text-gray-700 dark:text-gray-400 md:text-lg">
-            En Atman Credit creemos en una consultoría realista, a la medida de las necesidades de nuestros clientes, nuestro modelo de gestión empresarial es un modelo de inmersión con los clientes. Un modelo de consultoría, que va desde el diagnóstico de necesidades hasta la implementación real dentro de la empresa, asegurando así que se consiguen resultados y valor real para la empresa.
+            En Atman creemos en una consultoría realista, a la medida de las necesidades de nuestros clientes, nuestro modelo de gestión empresarial es un modelo de inmersión con los clientes. Un modelo de consultoría, que va desde el diagnóstico de necesidades hasta la implementación real dentro de la empresa, asegurando así que se consiguen resultados y valor real para la empresa.
           </p>
         </div>
         <div className="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl">
@@ -495,7 +495,7 @@ const Consulting = () => {
               </span>
             </h5>
             <p className="mb-6 text-gray-900 dark:text-white">
-              En Atman Credit sabemos que no toda la cartera vencida es igual, y no todos tus clientes morosos tienen las mismas características. Brindamos servicios hechos a la medida, cliente por cliente 
+              En Atman sabemos que no toda la cartera vencida es igual, y no todos tus clientes morosos tienen las mismas características. Brindamos servicios hechos a la medida, cliente por cliente 
             </p>
             <p className="mb-6 text-gray-900 dark:text-white">
               Analizamos tu cartera y desarrollamos la mejor estrategia de comunicación, anticipamos comportamientos de tus clientes para contactar en el momento y medios de cobranza más efectivos, para esto tenemos diferentes medios de cobro
@@ -535,7 +535,7 @@ const Consulting = () => {
           </div>
           <div className="lg:w-1/2">
             <p className="text-base text-gray-700 dark:text-gray-400">
-              En Atman Credit sabemos de la importancia de la tecnología en todos los procesos de la empresa, es por ello que ofrecemos tecnología vital para los negocios. Ofrecemos una alternativa de primer nivel para la administración de créditos otorgados y para la correcta administración de la cartera. En esta plataforma podremos: dictaminar, controlar y conciliar tu cartera, adicional puedes contar con acceso en tiempo real y nos adecuamos a todos los reportes necesarios para la mejor toma de decisiones de tu negocio.
+              En Atman sabemos de la importancia de la tecnología en todos los procesos de la empresa, es por ello que ofrecemos tecnología vital para los negocios. Ofrecemos una alternativa de primer nivel para la administración de créditos otorgados y para la correcta administración de la cartera. En esta plataforma podremos: dictaminar, controlar y conciliar tu cartera, adicional puedes contar con acceso en tiempo real y nos adecuamos a todos los reportes necesarios para la mejor toma de decisiones de tu negocio.
             </p>
           </div>
         </div>
@@ -552,7 +552,7 @@ const Consulting = () => {
           </div>
           <div className="lg:w-1/2">
             <p className="text-base text-gray-700 dark:text-gray-400">
-              En Atman Credit sabemos de la importancia de la tecnología en todos los procesos de la empresa, es por ello que ofrecemos tecnología vital para los negocios. Ofrecemos una alternativa de primer nivel para la administración de créditos otorgados y para la correcta administración de la cartera. En esta plataforma podremos: dictaminar, controlar y conciliar tu cartera, adicional puedes contar con acceso en tiempo real y nos adecuamos a todos los reportes necesarios para la mejor toma de decisiones de tu negocio.
+              En Atman sabemos de la importancia de la tecnología en todos los procesos de la empresa, es por ello que ofrecemos tecnología vital para los negocios. Ofrecemos una alternativa de primer nivel para la administración de créditos otorgados y para la correcta administración de la cartera. En esta plataforma podremos: dictaminar, controlar y conciliar tu cartera, adicional puedes contar con acceso en tiempo real y nos adecuamos a todos los reportes necesarios para la mejor toma de decisiones de tu negocio.
             </p>
           </div>
         </div>

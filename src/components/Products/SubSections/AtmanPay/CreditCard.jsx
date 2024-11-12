@@ -10,11 +10,11 @@ const CreditCard = () => {
                 <img class=" w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="https://res.cloudinary.com/gusironhack/image/upload/v1730261699/atman-card.png" alt="cellphone"/>
                     <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                         <h2 class="animate-fade-left mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Obténla de forma inmediata en cualquier momento y cualquier lugar desde tu App</h2>
-                        <p class="animate-fade-left mb-8 font-light lg:text-xl">Bienvenido a la nueva era de las tarjetas de crédito! Presentamos la tarjeta ATMAN CREDIT, la cual está respaldada por MasterCard y ofrece una amplia variedad de beneficios. Esta tarjeta te permite tomar el control de tus finanzas gracias a su App, donde podrás encenderla y apagarla, así como pagar con tu NIP para mayor seguridad </p>
+                        <p class="animate-fade-left mb-8 font-light lg:text-xl">Bienvenido a la nueva era de las tarjetas de crédito! Presentamos la tarjeta ATMAN, la cual está respaldada por MasterCard y ofrece una amplia variedad de beneficios. Esta tarjeta te permite tomar el control de tus finanzas gracias a su App, donde podrás encenderla y apagarla, así como pagar con tu NIP para mayor seguridad </p>
                         <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
                             <li class="flex space-x-3">
                                 <svg class="flex-shrink-0 w-5 h-5 text-principalAmber dark:text-principalAmber" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                <span class="animate-fade-left text-base font-medium leading-tight text-gray-900 dark:text-white">Con su uso y pago puntual, la tarjeta ATMAN CREDIT te ayuda a construir tu historial crediticio.</span>
+                                <span class="animate-fade-left text-base font-medium leading-tight text-gray-900 dark:text-white">Con su uso y pago puntual, la tarjeta ATMAN te ayuda a construir tu historial crediticio.</span>
                             </li>
                             <li class="flex space-x-3">
                                 <svg class="flex-shrink-0 w-5 h-5 text-principalAmber dark:text-principalAmber" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -30,7 +30,7 @@ const CreditCard = () => {
         <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
             <div className="lg:w-1/2">
             <h2 className="text-gray-900 dark:text-white max-w-md mb-6 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none xl:max-w-lg">
-                ¡Solicita tu tarjeta ATMAN CREDIT ahora mismo!
+                ¡Solicita tu tarjeta ATMAN ahora mismo!
             </h2>
             </div>
             <div className="lg:w-1/2">

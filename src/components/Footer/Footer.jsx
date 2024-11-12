@@ -53,7 +53,7 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-            © 2023 Atman Credit
+            © 2023 Atman
             </h1>
             <a className="text-sm hover:text-principalAmber duration-300" href='https://www.google.com.mx/maps/search/Blvd.+Manuel+%C3%81vila+Camacho+40,+Lomas+de+Chapultepec+III+Secc,+Miguel+Hidlgo,+11000,+CDMX/@19.4311466,-99.2103181,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D'>
               Blvd. Manuel Ávila Camacho 40, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11000, CDMX{" "}
@@ -61,13 +61,16 @@ const Footer = () => {
             <br />
             {/* Social Handle */}
             <div className="flex items-center gap-4 mt-6">
-              <a href="https://www.instagram.com/atman_credit/">
+              {/* <a href="https://www.instagram.com/atman_credit/"> */}
+              <a>
                 <FaInstagram className="text-2xl hover:text-principalAmber duration-300" />
               </a>
-              <a href="https://www.facebook.com/people/Atman-Credit/61567102081598">
+              {/* <a href="https://www.facebook.com/people/Atman-Credit/61567102081598"> */}
+              <a>
                 <FaFacebook className="text-2xl hover:text-principalAmber duration-300" />
               </a>
-              <a href="https://www.linkedin.com/company/105001807">
+              {/* <a href="https://www.linkedin.com/company/105001807"> */}
+              <a>
                 <FaLinkedin className="text-2xl hover:text-principalAmber duration-300" />
               </a>
             </div>

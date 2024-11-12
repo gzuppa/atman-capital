@@ -53,7 +53,7 @@ const Navbar = () => {
           >
             <img src='https://res.cloudinary.com/gusironhack/image/upload/v1730298439/WhatsApp_Image_2024-10-23_at_11.05.44_AM-removebg-preview.png' alt="" className="w-24 cursor-pointer" />
             {/* <span className="text-2xl sm:text-3xl font-semibold">
-              Atman Credit
+              Atman
             </span> */}
           </a>
           {/* Desktop view Navigation */}
