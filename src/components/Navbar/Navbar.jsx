@@ -51,7 +51,7 @@ const Navbar = () => {
             href="/"
             className="flex items-center gap-3"
           >
-            <img src='https://res.cloudinary.com/gusironhack/image/upload/v1730298439/WhatsApp_Image_2024-10-23_at_11.05.44_AM-removebg-preview.png' alt="" className="w-24 cursor-pointer" />
+            <img src='https://res.cloudinary.com/gusironhack/image/upload/v1731436574/logoat.png' alt="" className="w-24 cursor-pointer" />
             {/* <span className="text-2xl sm:text-3xl font-semibold">
               Atman
             </span> */}
