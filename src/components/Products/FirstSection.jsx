@@ -17,7 +17,7 @@ const FirstSection = () => {
                         <div class="relative">
                             <img class="w-full h-80 rounded-xl" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138179/Atman/products1.png" alt="Colors" />
                         </div>
-                        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">Créditos</h1>
+                        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">Créditos<br></br><br/></h1>
                         <div class="my-4">
                             <NavLink to={"/productos/creditos"}><button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">Conoce más</button></NavLink>
                         </div> 
@@ -26,7 +26,7 @@ const FirstSection = () => {
                         <div class="relative">
                             <img class="w-full h-80 rounded-xl" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/products4.jpg" alt="Colors" />
                         </div>
-                        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">Consultoría</h1>
+                        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">Consultoría y asesoría financiera</h1>
                         <div class="my-4">
                             <NavLink to={"/productos/consultoria"}><button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">Conoce más</button></NavLink>
                         </div> 
@@ -35,7 +35,7 @@ const FirstSection = () => {
                         <div class="relative">
                             <img class="w-full h-80 rounded-xl" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/product2.png" alt="Colors" />
                         </div>
-                        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">ATMAN Pay</h1>
+                        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">ATMAN Pay<br></br><br/></h1>
                         <div class="my-4">
                             <NavLink to={"/productos/atman-pay"}><button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">Conoce más</button></NavLink>
                         </div>
@@ -44,7 +44,7 @@ const FirstSection = () => {
                         <div class="relative">
                             <img class="w-full h-80 rounded-xl" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138171/Atman/products3.jpg" alt="Colors" />
                         </div>
-                        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">Tarjeta de crédito</h1>
+                        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">Tarjeta de crédito<br></br><br/></h1>
                         <div class="my-4">
                             <NavLink to={"/productos/tarjeta"}><button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">Conoce más</button></NavLink>
                         </div>

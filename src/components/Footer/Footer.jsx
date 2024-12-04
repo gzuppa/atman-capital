@@ -61,16 +61,16 @@ const Footer = () => {
             <br />
             {/* Social Handle */}
             <div className="flex items-center gap-4 mt-6">
-              {/* <a href="https://www.instagram.com/atman_credit/"> */}
-              <a>
+              <a href="https://www.instagram.com/atman_mex/">
+              {/* <a> */}
                 <FaInstagram className="text-2xl hover:text-principalAmber duration-300" />
               </a>
-              {/* <a href="https://www.facebook.com/people/Atman-Credit/61567102081598"> */}
-              <a>
+              <a href="https://www.facebook.com/profile.php?id=61570135251967">
+              {/* <a> */}
                 <FaFacebook className="text-2xl hover:text-principalAmber duration-300" />
               </a>
-              {/* <a href="https://www.linkedin.com/company/105001807"> */}
-              <a>
+              <a href="https://www.linkedin.com/company/105470802/admin/dashboard/">
+              {/* <a> */}
                 <FaLinkedin className="text-2xl hover:text-principalAmber duration-300" />
               </a>
             </div>
