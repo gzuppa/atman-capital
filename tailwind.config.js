@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': 'url("https://res.cloudinary.com/gusironhack/image/upload/v1730297902/buildbrown.jpg")',
+        hero: 'url("https://res.cloudinary.com/gusironhack/image/upload/v1730297902/buildbrown.jpg")',
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
@@ -18,7 +18,7 @@ export default {
           200: "#888883",
         },
         dark: "#111111",
-        principalAmber: "#d2a663"
+        principalAmber: "#d2a663",
       },
       container: {
         center: true,
@@ -29,5 +29,5 @@ export default {
       },
     },
   },
-  plugins: [require('tailwindcss-animated')],
+  plugins: [require("tailwindcss-animated")],
 };

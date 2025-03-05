@@ -53,24 +53,28 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-            © 2023 Atman
+              © 2023 Atman
             </h1>
-            <a className="text-sm hover:text-principalAmber duration-300" href='https://www.google.com.mx/maps/search/Blvd.+Manuel+%C3%81vila+Camacho+40,+Lomas+de+Chapultepec+III+Secc,+Miguel+Hidlgo,+11000,+CDMX/@19.4311466,-99.2103181,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D'>
-              Blvd. Manuel Ávila Camacho 40, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11000, CDMX{" "}
+            <a
+              className="text-sm hover:text-principalAmber duration-300"
+              href="https://www.google.com.mx/maps/search/Blvd.+Manuel+%C3%81vila+Camacho+40,+Lomas+de+Chapultepec+III+Secc,+Miguel+Hidlgo,+11000,+CDMX/@19.4311466,-99.2103181,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+            >
+              Blvd. Manuel Ávila Camacho 40, Lomas de Chapultepec III Secc,
+              Miguel Hidalgo, 11000, CDMX{" "}
             </a>
             <br />
             {/* Social Handle */}
             <div className="flex items-center gap-4 mt-6">
               <a href="https://www.instagram.com/atman_mex/">
-              {/* <a> */}
+                {/* <a> */}
                 <FaInstagram className="text-2xl hover:text-principalAmber duration-300" />
               </a>
               <a href="https://www.facebook.com/profile.php?id=61570135251967">
-              {/* <a> */}
+                {/* <a> */}
                 <FaFacebook className="text-2xl hover:text-principalAmber duration-300" />
               </a>
               <a href="https://www.linkedin.com/company/105470802/admin/dashboard/">
-              {/* <a> */}
+                {/* <a> */}
                 <FaLinkedin className="text-2xl hover:text-principalAmber duration-300" />
               </a>
             </div>
@@ -88,7 +92,12 @@ const Footer = () => {
                       key={link.title}
                       className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-principalAmber space-x-1 text-gray-400 "
                     >
-                      <NavLink to={link.link} className="text-md font-medium hover:text-principalAmber py-2 hover:border-primary transition-colors duration-500">{link.title}</NavLink>
+                      <NavLink
+                        to={link.link}
+                        className="text-md font-medium hover:text-principalAmber py-2 hover:border-primary transition-colors duration-500"
+                      >
+                        {link.title}
+                      </NavLink>
                     </li>
                   ))}
                 </ul>
@@ -110,11 +119,18 @@ const Footer = () => {
                   ))}
                 </ul>
               </div> */}
-            <div className="py-8 px-4 ">
-              <a target='_blank' href='https://www.burodecredito.com.mx/?utm_source=Google&utm_medium=PaidSearch&utm_campaign=Home_ing&gad_source=1&gclid=Cj0KCQjwj4K5BhDYARIsAD1Ly2qeVog7kLJHxLJh4mKxDIk89r2oFvX7cFT73IBoGhgavcj1NASWTo8aAhoAEALw_wcB'>
-                <img class="w-20 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear" src="https://res.cloudinary.com/gusironhack/image/upload/v1730138077/Atman/buro.png" alt="cellphone"/>
-              </a>
-            </div>
+              <div className="py-8 px-4 ">
+                <a
+                  target="_blank"
+                  href="https://www.burodecredito.com.mx/?utm_source=Google&utm_medium=PaidSearch&utm_campaign=Home_ing&gad_source=1&gclid=Cj0KCQjwj4K5BhDYARIsAD1Ly2qeVog7kLJHxLJh4mKxDIk89r2oFvX7cFT73IBoGhgavcj1NASWTo8aAhoAEALw_wcB"
+                >
+                  <img
+                    class="w-20 mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear"
+                    src="https://res.cloudinary.com/gusironhack/image/upload/v1730138077/Atman/buro.png"
+                    alt="cellphone"
+                  />
+                </a>
+              </div>
             </div>
             {/* <div className="">
               <div className="py-8 px-4 ">

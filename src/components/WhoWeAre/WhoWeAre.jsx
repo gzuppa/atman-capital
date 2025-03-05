@@ -1,13 +1,13 @@
-import Banner from "./Banner"
-import SecondSection from "./SecondSection"
+import Banner from "./Banner";
+import SecondSection from "./SecondSection";
 
 const WhoWeAre = () => {
   return (
     <>
-        <Banner />
-        <SecondSection />
+      <Banner />
+      <SecondSection />
     </>
-  )
-}
+  );
+};
 
-export default WhoWeAre
+export default WhoWeAre;

@@ -1,41 +1,40 @@
-
-  .image-container {
-    margin-top: -370px;
-    margin-left: 200px
-  }
-
-  .image-container img {
-    position: absolute;
-  }
-
-  .top {
-      animation-name: fade;
-      animation-timing-function: ease-in;
-      animation-iteration-count: infinite;
-      animation-duration: 1.8s;
-      animation-direction: alternate;
-      margin-top: 5rem;
-  }
-
-  .bottom {
-    animation-name: fade;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 2.2s;
-    animation-direction: alternate;
+.image-container {
+  margin-top: -370px;
+  margin-left: 200px;
 }
-  
-  @keyframes fade {
-      0% {
-          opacity: 1;
-      }
-      25% {
-          opacity: 1;
-      }
-      75% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 0;
-      }
+
+.image-container img {
+  position: absolute;
+}
+
+.top {
+  animation-name: fade;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 1.8s;
+  animation-direction: alternate;
+  margin-top: 5rem;
+}
+
+.bottom {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2.2s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
   }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -3,7 +3,7 @@ import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 
 const DarkMode = () => {
   const [theme, setTheme] = React.useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light",
   );
 
   const element = document.documentElement; // access to html element
@@ -22,9 +22,15 @@ const DarkMode = () => {
   return (
     <>
       {theme === "dark" ? (
-        <BiSolidSun onClick={() => setTheme("light")} className="text-2xl cursor-pointer hover:text-principalAmber" />
+        <BiSolidSun
+          onClick={() => setTheme("light")}
+          className="text-2xl cursor-pointer hover:text-principalAmber"
+        />
       ) : (
-        <BiSolidMoon onClick={() => setTheme("dark")} className="text-2xl cursor-pointer hover:text-principalAmber" />
+        <BiSolidMoon
+          onClick={() => setTheme("dark")}
+          className="text-2xl cursor-pointer hover:text-principalAmber"
+        />
       )}
     </>
   );

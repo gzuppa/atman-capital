@@ -1,11 +1,11 @@
-import FirstSection from "./FirstSection"
+import FirstSection from "./FirstSection";
 
 const Products = () => {
   return (
     <>
-       <FirstSection />
+      <FirstSection />
     </>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;

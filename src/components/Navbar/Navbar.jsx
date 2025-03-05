@@ -3,7 +3,7 @@ import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 import Logo from "../../assets/website/Vector.svg";
 import DarkMode from "./DarkMode";
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
 
 export const MenuLinks = [
   {
@@ -46,12 +46,12 @@ const Navbar = () => {
       <div className="container py-3 md:py-2 font-montserrat">
         <div className="flex justify-between items-center">
           {/* Logo section */}
-          <a
-            target="_blank"
-            href="/"
-            className="flex items-center gap-3"
-          >
-            <img src='https://res.cloudinary.com/gusironhack/image/upload/v1731436574/logoat.png' alt="" className="w-24 cursor-pointer" />
+          <a target="_blank" href="/" className="flex items-center gap-3">
+            <img
+              src="https://res.cloudinary.com/gusironhack/image/upload/v1741122521/garcLogo_qbfil8.png"
+              alt=""
+              className="w-16 cursor-pointer"
+            />
             {/* <span className="text-2xl sm:text-3xl font-semibold">
               Atman
             </span> */}
@@ -61,7 +61,12 @@ const Navbar = () => {
             <ul className="flex items-center gap-8">
               {MenuLinks.map(({ id, name, link }) => (
                 <li key={id} className="py-4">
-                  <NavLink to={link} className="text-md font-medium hover:text-principalAmber py-2 hover:border-b-2 hover:border-principalAmber transition-colors duration-500">{name}</NavLink>
+                  <NavLink
+                    to={link}
+                    className="text-md font-medium hover:text-principalAmber py-2 hover:border-b-2 hover:border-principalAmber transition-colors duration-500"
+                  >
+                    {name}
+                  </NavLink>
                 </li>
               ))}
               {/* <button className="primary-btn">Get in Touch</button> */}
@@ -70,7 +75,7 @@ const Navbar = () => {
           </nav>
           {/* Mobile view Drawer  */}
           <div className="flex items-center gap-4 md:hidden ">
-            <DarkMode/>
+            <DarkMode />
             {/* Mobile Hamburger icon */}
             {showMenu ? (
               <HiMenuAlt1
