@@ -1,6 +1,47 @@
 import "./index.css";
 
 const SecondSection = () => {
+  const ListItem = ({ text }) => {
+    return (
+      <li className="flex items-start dark:text-gray-400 text-sm">
+        <span className="mr-1">
+          <svg
+            className="w-5 h-5 mt-px text-deep-purple-accent-400"
+            stroke="currentColor"
+            viewBox="0 0 52 52"
+          >
+            <polygon
+              strokeWidth="4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              fill="none"
+              points="29 13 14 29 25 29 23 39 38 23 27 23"
+            />
+          </svg>
+        </span>
+        {text}
+      </li>
+    )
+  }
+
+  const Polygon = () => {
+    return(
+      <svg
+        className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
+        stroke="currentColor"
+        viewBox="0 0 52 52"
+      >
+        <polygon
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+          points="29 13 14 29 25 29 23 39 38 23 27 23"
+        />
+      </svg>
+    )
+  }
+
   return (
     <section
       class="bg-gray-50 dark:bg-gray-800 font-montserrat"
@@ -42,19 +83,7 @@ const SecondSection = () => {
         <div className="grid gap-8 row-gap-8 lg:grid-cols-3">
           <div className="sm:text-center">
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+              <Polygon />
             </div>
             <h6 className="mb-2 font-semibold leading-5 dark:text-white">
               Misión
@@ -67,19 +96,7 @@ const SecondSection = () => {
           </div>
           <div className="sm:text-center">
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+              <Polygon />
             </div>
             <h6 className="mb-2 font-semibold leading-5 dark:text-white">
               Visión
@@ -93,81 +110,21 @@ const SecondSection = () => {
           </div>
           <div className="sm:text-center">
             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+              <Polygon />
             </div>
             <h6 className="mb-2 font-semibold leading-5 dark:text-white">
               Valores
             </h6>
-            <div>
-              <ul className="mb-4 -ml-1 space-y-2">
-                <li className="flex items-start">
-                  <span className="mr-1">
-                    <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                      stroke="currentColor"
-                      viewBox="0 0 52 52"
-                    >
-                      <polygon
-                        strokeWidth="4"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        fill="none"
-                        points="29 13 14 29 25 29 23 39 38 23 27 23"
-                      />
-                    </svg>
-                  </span>
-                  Computers
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-1">
-                    <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                      stroke="currentColor"
-                      viewBox="0 0 52 52"
-                    >
-                      <polygon
-                        strokeWidth="4"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        fill="none"
-                        points="29 13 14 29 25 29 23 39 38 23 27 23"
-                      />
-                    </svg>
-                  </span>
-                  Health
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-1">
-                    <svg
-                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                      stroke="currentColor"
-                      viewBox="0 0 52 52"
-                    >
-                      <polygon
-                        strokeWidth="4"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        fill="none"
-                        points="29 13 14 29 25 29 23 39 38 23 27 23"
-                      />
-                    </svg>
-                  </span>
-                  Reference
-                </li>
-              </ul>
+            <div className="grid grid-cols-2 grid-rows-2 gap-2 row-gap-2">
+              <ListItem text="Oportunidad" />
+              <ListItem text="Confianza" />
+              <ListItem text="Honestidad" />
+              <ListItem text="Responsabilidad" />
+              <ListItem text="Transparencia" />
+              <ListItem text="Inclusión" />
+              <ListItem text="Trabajo en equipo" />
             </div>
+            <div></div>
           </div>
         </div>
       </div>
