@@ -38,7 +38,7 @@ const Contact = () => {
   const options = [
     { value: "Créditos", label: "Créditos" },
     { value: "Consultoría", label: "Consultoría" },
-    { value: "AtmanPay", label: "ATMAN Pay" },
+    { value: "GARCPay", label: "GARC Pay" },
     { value: "Tarjeta", label: "Tarjeta de crédito" },
   ];
 

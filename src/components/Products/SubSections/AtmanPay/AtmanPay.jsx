@@ -6,7 +6,7 @@ const AtmanPay = () => {
     <Stack class="font-montserrat">
       <Stack class="bg-gray-50 dark:bg-gray-800 text-center">
         <h1 class="pt-10 text-gray-900 dark:text-white text-4xl font-bold pb-6 lg:pb-0">
-          ATMAN Pay
+          GARC Pay (Under construction)
         </h1>
       </Stack>
       <Stack>
@@ -18,13 +18,13 @@ const AtmanPay = () => {
                   La App rápida, fácil, confiable y segura para tu dinero.
                 </h2>
                 <p class="animate-fade-left mb-4 lg:text-xl font-extrabold">
-                  ATMAN PAY es para personas y empresas.
+                  GARC PAY es para personas y empresas.
                 </p>
                 <p class="animate-fade-left mb-8 lg:text-xl font-light">
                   Tu Cuenta Digital en máximo 24 horas!
                 </p>
                 <p class="animate-fade-left mb-8 lg:text-xl font-light">
-                  Abrir tu cuenta en ATMAN PAY es muy fácil y obtendrás los
+                  Abrir tu cuenta en GARC PAY es muy fácil y obtendrás los
                   siguientes beneficios:
                 </p>
                 <ul

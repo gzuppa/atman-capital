@@ -9,11 +9,11 @@ const Company = () => {
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
             <span className="relative font-montserrat text-gray-900 dark:text-white">
               ¡Descubre la solución financiera integral para tu empresa con
-              ATMAN PAY!
+              GARC PAY!
             </span>
           </h2>
           <p className="text-base text-gray-700 dark:text-white md:text-lg mb-2">
-            En ATMAN PAY, estamos comprometidos con el crecimiento y el éxito de
+            En GARC PAY, estamos comprometidos con el crecimiento y el éxito de
             tu empresa.
           </p>
           <p className="text-base text-gray-700 dark:text-white md:text-lg mb-2">
@@ -22,7 +22,7 @@ const Company = () => {
           </p>
           <p className="text-base text-gray-700 dark:text-white md:text-lg mb-2">
             Únete a nuestra comunidad de PYMES que han transformado su gestión
-            financiera con ATMAN PAY.
+            financiera con GARC PAY.
           </p>
           <p className="font-bold text-gray-700 dark:text-white md:text-lg mb-2">
             ¡Descubre una nueva forma de hacer negocios hoy mismo!
@@ -190,7 +190,7 @@ const Company = () => {
                 Con nuestra plataforma, podrás realizar pagos a proveedores de
                 manera rápida y segura, sin la necesidad de lidiar con trámites
                 complicados. Olvídate de los largos tiempos de espera y los
-                problemas de liquidez. En ATMAN PAY, agilizamos tus
+                problemas de liquidez. En GARC PAY, agilizamos tus
                 transacciones financieras para que puedas concentrarte en hacer
                 crecer tu negocio.
               </p>
@@ -213,7 +213,7 @@ const Company = () => {
                 Ofrecemos la opción de pago de nóminas a tus empleados de forma
                 eficiente y transparente. Simplifica el proceso de dispersión de
                 sueldos y elimina la necesidad de realizar pagos en efectivo.
-                Con ATMAN PAY, tus empleados recibirán sus salarios de manera
+                Con GARC PAY, tus empleados recibirán sus salarios de manera
                 segura y puntual, generando confianza y satisfacción en tu
                 equipo de trabajo.
               </p>
@@ -238,7 +238,7 @@ const Company = () => {
                 Tarjetas físicas y virtuales.
               </h5>
               <p className="mb-5 text-gray-700">
-                En ATMAN PAY, te brindamos la oportunidad de obtener tarjetas
+                En GARC PAY, te brindamos la oportunidad de obtener tarjetas
                 corporativas tanto físicas como virtuales. Podrás asignar
                 límites de gasto y controlar los consumos de tus colaboradores,
                 garantizando un manejo responsable de los recursos de tu
@@ -262,7 +262,7 @@ const Company = () => {
                 Crédito PYME
               </h5>
               <p className="mb-5 text-gray-700">
-                Si necesitas financiamiento para impulsar tu negocio, en ATMAN
+                Si necesitas financiamiento para impulsar tu negocio, en GARC
                 PAY te ofrecemos opciones de microcréditos adaptados a tus
                 necesidades. Olvídate de los trámites complicados y los altos
                 intereses. Nuestros créditos te brindan flexibilidad en los

@@ -9,7 +9,7 @@ const People = () => {
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto pt-6 lg:pt-0">
             <span className="relative inline-block">
               <span className="relative font-montserrat text-gray-900 dark:text-white">
-                ATMAN Pay Personas
+                GARC Pay Personas
               </span>
             </span>
           </h2>
@@ -89,7 +89,7 @@ const People = () => {
                   Cobra a distancia
                 </h6>
                 <p className="text-sm">
-                  Con ATMAN Pay haz cobros de forma fácil a quien tú quieras sin
+                  Con GARC Pay haz cobros de forma fácil a quien tú quieras sin
                   salir de casa.
                 </p>
               </div>

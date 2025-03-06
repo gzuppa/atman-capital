@@ -68,7 +68,7 @@ const Consulting = () => {
             Metodología de servicio
           </h2>
           <p className="text-base text-gray-700 dark:text-gray-400 md:text-lg">
-            En Atman creemos en una consultoría realista, a la medida de las
+            En GARC creemos en una consultoría realista, a la medida de las
             necesidades de nuestros clientes, nuestro modelo de gestión
             empresarial es un modelo de inmersión con los clientes. Un modelo de
             consultoría, que va desde el diagnóstico de necesidades hasta la
@@ -523,7 +523,7 @@ const Consulting = () => {
               </span>
             </h5>
             <p className="mb-6 text-gray-900 dark:text-white">
-              En Atman sabemos que no toda la cartera vencida es igual, y no
+              En GARC sabemos que no toda la cartera vencida es igual, y no
               todos tus clientes morosos tienen las mismas características.
               Brindamos servicios hechos a la medida, cliente por cliente
             </p>
@@ -569,7 +569,7 @@ const Consulting = () => {
           </div>
           <div className="lg:w-1/2">
             <p className="text-base text-gray-700 dark:text-gray-400">
-              En Atman sabemos de la importancia de la tecnología en todos los
+              En GARC sabemos de la importancia de la tecnología en todos los
               procesos de la empresa, es por ello que ofrecemos tecnología vital
               para los negocios. Ofrecemos una alternativa de primer nivel para
               la administración de créditos otorgados y para la correcta
@@ -582,23 +582,6 @@ const Consulting = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="bg-gray-50 dark:bg-gray-900 px-4 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-16 lg:py-20 font-montserrat">
-        <div className="flex flex-col lg:flex-row">
-          <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-            <h2 className="mb-5 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl sm:leading-none">
-              <span className="inline-block text-deep-purple-accent-400">
-                Sistema de administración de cartera (ERP)
-              </span>
-            </h2>
-          </div>
-          <div className="lg:w-1/2">
-            <p className="text-base text-gray-700 dark:text-gray-400">
-              En Atman sabemos de la importancia de la tecnología en todos los procesos de la empresa, es por ello que ofrecemos tecnología vital para los negocios. Ofrecemos una alternativa de primer nivel para la administración de créditos otorgados y para la correcta administración de la cartera. En esta plataforma podremos: dictaminar, controlar y conciliar tu cartera, adicional puedes contar con acceso en tiempo real y nos adecuamos a todos los reportes necesarios para la mejor toma de decisiones de tu negocio.
-            </p>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

@@ -22,7 +22,7 @@ const CreditCard = () => {
               </h2>
               <p class="animate-fade-left mb-8 font-light lg:text-xl">
                 Bienvenido a la nueva era de las tarjetas de crédito!
-                Presentamos la tarjeta ATMAN, la cual está respaldada por
+                Presentamos la tarjeta GARC, la cual está respaldada por
                 MasterCard y ofrece una amplia variedad de beneficios. Esta
                 tarjeta te permite tomar el control de tus finanzas gracias a su
                 App, donde podrás encenderla y apagarla, así como pagar con tu
@@ -46,7 +46,7 @@ const CreditCard = () => {
                     ></path>
                   </svg>
                   <span class="animate-fade-left text-base font-medium leading-tight text-gray-900 dark:text-white">
-                    Con su uso y pago puntual, la tarjeta ATMAN te ayuda a
+                    Con su uso y pago puntual, la tarjeta GARC te ayuda a
                     construir tu historial crediticio.
                   </span>
                 </li>
@@ -79,7 +79,7 @@ const CreditCard = () => {
         <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
           <div className="lg:w-1/2">
             <h2 className="text-gray-900 dark:text-white max-w-md mb-6 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none xl:max-w-lg">
-              ¡Solicita tu tarjeta ATMAN ahora mismo!
+              ¡Solicita tu tarjeta GARC ahora mismo!
             </h2>
           </div>
           <div className="lg:w-1/2">
@@ -338,7 +338,7 @@ const CreditCard = () => {
                   </svg>
                 </span>
                 <p className="text-xs">
-                  Con ATMAN PAY tienes cuentas digitales para la liquidación de
+                  Con GARC PAY tienes cuentas digitales para la liquidación de
                   tus remesas internacionales a un tipo de cambio y costo
                   competitivos
                 </p>

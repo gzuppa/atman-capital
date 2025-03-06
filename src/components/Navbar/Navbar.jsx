@@ -53,7 +53,7 @@ const Navbar = () => {
               className="w-16 cursor-pointer"
             />
             {/* <span className="text-2xl sm:text-3xl font-semibold">
-              Atman
+              GARC
             </span> */}
           </a>
           {/* Desktop view Navigation */}

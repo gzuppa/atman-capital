@@ -53,7 +53,7 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-              © 2023 Atman
+              © 2023 GARC
             </h1>
             <a
               className="text-sm hover:text-principalAmber duration-300"
@@ -64,20 +64,20 @@ const Footer = () => {
             </a>
             <br />
             {/* Social Handle */}
-            <div className="flex items-center gap-4 mt-6">
+            {/* <div className="flex items-center gap-4 mt-6">
               <a href="https://www.instagram.com/atman_mex/">
-                {/* <a> */}
+                <a>
                 <FaInstagram className="text-2xl hover:text-principalAmber duration-300" />
               </a>
               <a href="https://www.facebook.com/profile.php?id=61570135251967">
-                {/* <a> */}
+                <a>
                 <FaFacebook className="text-2xl hover:text-principalAmber duration-300" />
               </a>
               <a href="https://www.linkedin.com/company/105470802/admin/dashboard/">
-                {/* <a> */}
+                <a>
                 <FaLinkedin className="text-2xl hover:text-principalAmber duration-300" />
               </a>
-            </div>
+            </div> */}
           </div>
           {/* Links */}
           <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 ">

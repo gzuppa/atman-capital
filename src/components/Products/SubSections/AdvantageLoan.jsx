@@ -190,7 +190,7 @@ const AdvantageLoan = () => {
                       ></path>
                     </svg>
                     <span class="animate-fade-left text-base font-medium leading-tight text-gray-900 dark:text-white">
-                      Que tu empresa tenga convenio con ATMAN.
+                      Que tu empresa tenga convenio con GARC.
                     </span>
                   </li>
                 </ul>
