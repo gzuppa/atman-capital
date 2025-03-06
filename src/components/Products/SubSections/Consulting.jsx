@@ -559,6 +559,39 @@ const Consulting = () => {
           </div>
         </div>
 
+        <div className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
+          <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
+            <div>
+              <img
+                className="object-cover w-24 h-24 rounded-full shadow"
+                src="https://res.cloudinary.com/gusironhack/image/upload/v1741229771/Cliente-Logo-Banco-Azteca_scpsmo.png"
+                alt="Person"
+              />
+            </div>
+            <div>
+              <img
+                className="object-cover w-24 h-24 rounded-full shadow"
+                src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                alt="Person"
+              />
+            </div>
+            <div>
+              <img
+                className="object-cover w-24 h-24 rounded-full shadow"
+                src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                alt="Person"
+              />
+            </div>
+            <div>
+              <img
+                className="object-cover w-24 h-24 rounded-full shadow"
+                src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                alt="Person"
+              />
+            </div>
+          </div>
+        </div>
+
         <div className="flex flex-col lg:flex-row mt-10">
           <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl sm:leading-none">

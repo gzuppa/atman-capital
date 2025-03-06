@@ -8,8 +8,8 @@ const Company = () => {
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 px-6 lg:px-0">
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
             <span className="relative font-montserrat text-gray-900 dark:text-white">
-              ¡Descubre la solución financiera integral para tu empresa con
-              GARC PAY!
+              ¡Descubre la solución financiera integral para tu empresa con GARC
+              PAY!
             </span>
           </h2>
           <p className="text-base text-gray-700 dark:text-white md:text-lg mb-2">
@@ -190,9 +190,9 @@ const Company = () => {
                 Con nuestra plataforma, podrás realizar pagos a proveedores de
                 manera rápida y segura, sin la necesidad de lidiar con trámites
                 complicados. Olvídate de los largos tiempos de espera y los
-                problemas de liquidez. En GARC PAY, agilizamos tus
-                transacciones financieras para que puedas concentrarte en hacer
-                crecer tu negocio.
+                problemas de liquidez. En GARC PAY, agilizamos tus transacciones
+                financieras para que puedas concentrarte en hacer crecer tu
+                negocio.
               </p>
             </div>
           </div>

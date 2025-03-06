@@ -14,7 +14,10 @@ const FirstSection = () => {
           </h1>
           <div class="lg:px-40">
             <p class="mt-4 mb-12 text-center text-gray-900 dark:text-white text-md">
-              El objetivo de GARC es convertirse en el líder del sector Fintech a través del portafolio de servicios y productos financieros digitales que permita maximizar el volumen de negocios y su rentabilidad.
+              El objetivo de GARC es convertirse en el líder del sector Fintech
+              a través del portafolio de servicios y productos financieros
+              digitales que permita maximizar el volumen de negocios y su
+              rentabilidad.
             </p>
           </div>
         </Stack>
