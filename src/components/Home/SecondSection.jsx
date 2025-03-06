@@ -21,11 +21,11 @@ const SecondSection = () => {
         </span>
         {text}
       </li>
-    )
-  }
+    );
+  };
 
   const Polygon = () => {
-    return(
+    return (
       <svg
         className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
         stroke="currentColor"
@@ -39,8 +39,8 @@ const SecondSection = () => {
           points="29 13 14 29 25 29 23 39 38 23 27 23"
         />
       </svg>
-    )
-  }
+    );
+  };
 
   return (
     <section
