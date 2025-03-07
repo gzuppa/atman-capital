@@ -1,5 +1,4 @@
 const SecondSection = () => {
-  
   const CompanyItems = ({ url, title, subtitle }) => {
     return (
       <div>
