@@ -13,12 +13,12 @@ const Hero = () => {
         </h1>
         <a
           href="/quienes-somos"
-          class="dark:brightness-100 group hover:shadow-lg hover:shadow-yellow-700/60 transition ease-in-out hover:scale-105 p-1 rounded-xl bg-gradient-to-br from-yellow-800 via-yellow-600 to-yellow-800 hover:from-yellow-700 hover:via-yellow-800 hover:to-yellow-600"
+          class="dark:brightness-100 group hover:shadow-lg hover:shadow-gray-700/60 transition ease-in-out hover:scale-105 p-1 rounded-xl bg-gradient-to-br from-gray-800 via-gray-600 to-gray-800 hover:from-gray-700 hover:via-gray-800 hover:to-gray-600"
         >
           <div class="px-6 py-2 backdrop-blur-xl bg-black/80 rounded-xl font-medium font-montserrat w-full h-full">
-            <div class="group-hover:scale-100 flex justify-center group-hover:text-yellow-500 text-yellow-600 gap-1">
+            <div class="group-hover:scale-100 flex justify-center group-hover:text-gray-500 text-gray-300 gap-1">
               <svg
-                class="w-6 h-6 stroke-yellow-600 group-hover:stroke-yellow-500 group-hover:stroke-{1.99}"
+                class="w-6 h-6 stroke-gray-300 group-hover:stroke-gray-500 group-hover:stroke-{1.99}"
                 width="24"
                 height="24"
                 xmlns="http://www.w3.org/2000/svg"

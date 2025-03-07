@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        hero: 'url("https://res.cloudinary.com/gusironhack/image/upload/v1730297902/buildbrown.jpg")',
+        hero: 'url("https://res.cloudinary.com/gusironhack/image/upload/v1741315478/builddark_g5oaaw.jpg")',
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
