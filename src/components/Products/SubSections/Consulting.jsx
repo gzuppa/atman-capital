@@ -1,5 +1,4 @@
 const Consulting = () => {
-
   const ItemListService = ({ text }) => {
     return (
       <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
@@ -52,7 +51,7 @@ const Consulting = () => {
     );
   };
 
-  const CompanyItems = ({url, title, subtitle}) => {
+  const CompanyItems = ({ url, title, subtitle }) => {
     return (
       <div>
         <div class="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
@@ -63,14 +62,12 @@ const Consulting = () => {
           />
           <div class="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
             <p class="mb-1 text-lg font-bold text-gray-100">{title}</p>
-            <p class="mb-4 text-xs text-gray-100">
-              {subtitle}
-            </p>
+            <p class="mb-4 text-xs text-gray-100">{subtitle}</p>
           </div>
         </div>
       </div>
-    )
-  }
+    );
+  };
 
   return (
     <>
@@ -294,15 +291,51 @@ const Consulting = () => {
             </h2>
           </div>
           <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741222515/argis-removebg-preview_biujaa.png' title='ARGIS' subtitle='Servicios de consultoría y administración'/>
-            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741223012/multiplica_qtrk1i.png' title='Multiplica tu nómina' subtitle=''/>
-            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741223070/abono_hanyzj.png' title='Tu abono cuenta' subtitle='by Financiera SAM'/>
-            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741229771/Cliente-Logo-Banco-Azteca_scpsmo.png' title='Banco Azteca' subtitle=''/>
-            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741309933/santanderlogo-removebg-preview_uuz6cu.png' title='Santander' subtitle=''/>
-            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741310140/inbursa-removebg-preview_su5yt4.png' title='Inbursa' subtitle=''/>
-            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741310205/citi-removebg-preview_snnamc.png' title='CitiBanamex' subtitle=''/>
-            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741310286/bbvalogo_bzxazu.png' title='BBVA' subtitle=''/>
-            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741310366/stp_iincet.png' title='STP' subtitle=''/>
+            <CompanyItems
+              url="https://res.cloudinary.com/gusironhack/image/upload/v1741222515/argis-removebg-preview_biujaa.png"
+              title="ARGIS"
+              subtitle="Servicios de consultoría y administración"
+            />
+            <CompanyItems
+              url="https://res.cloudinary.com/gusironhack/image/upload/v1741223012/multiplica_qtrk1i.png"
+              title="Multiplica tu nómina"
+              subtitle=""
+            />
+            <CompanyItems
+              url="https://res.cloudinary.com/gusironhack/image/upload/v1741223070/abono_hanyzj.png"
+              title="Tu abono cuenta"
+              subtitle="by Financiera SAM"
+            />
+            <CompanyItems
+              url="https://res.cloudinary.com/gusironhack/image/upload/v1741229771/Cliente-Logo-Banco-Azteca_scpsmo.png"
+              title="Banco Azteca"
+              subtitle=""
+            />
+            <CompanyItems
+              url="https://res.cloudinary.com/gusironhack/image/upload/v1741309933/santanderlogo-removebg-preview_uuz6cu.png"
+              title="Santander"
+              subtitle=""
+            />
+            <CompanyItems
+              url="https://res.cloudinary.com/gusironhack/image/upload/v1741310140/inbursa-removebg-preview_su5yt4.png"
+              title="Inbursa"
+              subtitle=""
+            />
+            <CompanyItems
+              url="https://res.cloudinary.com/gusironhack/image/upload/v1741310205/citi-removebg-preview_snnamc.png"
+              title="CitiBanamex"
+              subtitle=""
+            />
+            <CompanyItems
+              url="https://res.cloudinary.com/gusironhack/image/upload/v1741310286/bbvalogo_bzxazu.png"
+              title="BBVA"
+              subtitle=""
+            />
+            <CompanyItems
+              url="https://res.cloudinary.com/gusironhack/image/upload/v1741310366/stp_iincet.png"
+              title="STP"
+              subtitle=""
+            />
           </div>
         </div>
 
