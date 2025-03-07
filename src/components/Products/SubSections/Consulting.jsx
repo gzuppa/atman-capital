@@ -1,4 +1,77 @@
 const Consulting = () => {
+
+  const ItemListService = ({ text }) => {
+    return (
+      <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
+        <div className="mr-2">
+          <svg
+            className="w-6 h-6 text-deep-purple-accent-400 sm:w-8 sm:h-8 dark:text-white"
+            stroke="currentColor"
+            viewBox="0 0 52 52"
+          >
+            <polygon
+              strokeWidth="3"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              fill="none"
+              points="29 13 14 29 25 29 23 39 38 23 27 23"
+            />
+          </svg>
+        </div>
+        <span className="text-gray-800 dark:text-white">{text}</span>
+      </div>
+    );
+  };
+
+  const ItemListOurServices = ({ text }) => {
+    return (
+      <div className="flex flex-col max-w-md sm:flex-row">
+        <div className="mb-4 mr-4">
+          <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
+            <svg
+              className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
+            {text}
+          </h6>
+        </div>
+      </div>
+    );
+  };
+
+  const CompanyItems = ({url, title, subtitle}) => {
+    return (
+      <div>
+        <div class="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+          <img
+            class="object-contain w-full h-56 md:h-64 xl:h-80"
+            src={url}
+            alt="Person"
+          />
+          <div class="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+            <p class="mb-1 text-lg font-bold text-gray-100">{title}</p>
+            <p class="mb-4 text-xs text-gray-100">
+              {subtitle}
+            </p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <>
       <div
@@ -77,80 +150,10 @@ const Consulting = () => {
           </p>
         </div>
         <div className="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl">
-          <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
-            <div className="mr-2">
-              <svg
-                className="w-6 h-6 text-deep-purple-accent-400 sm:w-8 sm:h-8 dark:text-white"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <span className="text-gray-800 dark:text-white">Análisis</span>
-          </div>
-          <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
-            <div className="mr-2">
-              <svg
-                className="w-6 h-6 text-deep-purple-accent-400 sm:w-8 sm:h-8 dark:text-white"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <span className="text-gray-800 dark:text-white">Planificación</span>
-          </div>
-          <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
-            <div className="mr-2">
-              <svg
-                className="w-6 h-6 text-deep-purple-accent-400 sm:w-8 sm:h-8 dark:text-white"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <span className="text-gray-800 dark:text-white">
-              Implementación
-            </span>
-          </div>
-          <div className="flex items-center p-2 duration-300 transform border rounded shadow hover:scale-105 sm:hover:scale-110">
-            <div className="mr-2">
-              <svg
-                className="w-6 h-6 text-deep-purple-accent-400 sm:w-8 sm:h-8 dark:text-white"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
-            </div>
-            <span className="text-gray-800 dark:text-white">Seguimiento</span>
-          </div>
+          <ItemListService text="Análisis" />
+          <ItemListService text="Planificación" />
+          <ItemListService text="Implementación" />
+          <ItemListService text="Seguimiento" />
         </div>
       </div>
 
@@ -169,320 +172,21 @@ const Consulting = () => {
         </div>
         <div className="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x ">
           <div className="space-y-6 sm:px-16">
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Gestión financiera
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Valuación de empresas
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Riesgos
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Auditorías
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Optimización de procesos
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Gestoría empresarial
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Administración de cartera
-                </h6>
-              </div>
-            </div>
+            <ItemListOurServices text="Gestión financiera" />
+            <ItemListOurServices text="Valuación de empresas" />
+            <ItemListOurServices text="Riesgos" />
+            <ItemListOurServices text="Auditorías" />
+            <ItemListOurServices text="Optimización de procesos" />
+            <ItemListOurServices text="Gestoría empresarial" />
+            <ItemListOurServices text="Administración de cartera" />
           </div>
           <div className="space-y-6 sm:px-16">
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Marketing digital
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Publicidad y promocionales
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Mensajería
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold text-gray-900 dark:text-white">
-                  Digitalización en el otorgamiento de créditos
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold text-gray-900 dark:text-white">
-                  Automatización del proceso de administración de créditos
-                </h6>
-              </div>
-            </div>
-            <div className="flex flex-col max-w-md sm:flex-row">
-              <div className="mb-4 mr-4">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
-                  <svg
-                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h6 className="mb-3 text-xl font-bold mt-2 text-gray-900 dark:text-white">
-                  Callcenter omnicanal
-                </h6>
-              </div>
-            </div>
+            <ItemListOurServices text="Marketing digital" />
+            <ItemListOurServices text="Publicidad y promocionales" />
+            <ItemListOurServices text="Mensajería" />
+            <ItemListOurServices text="Digitalización en el otorgamiento de créditos" />
+            <ItemListOurServices text="Automatización del proceso de administración de créditos" />
+            <ItemListOurServices text="Callcenter omnicanal" />
           </div>
         </div>
       </div>
@@ -559,36 +263,46 @@ const Consulting = () => {
           </div>
         </div>
 
-        <div className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
-          <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
-            <div>
-              <img
-                className="object-cover w-24 h-24 rounded-full shadow"
-                src="https://res.cloudinary.com/gusironhack/image/upload/v1741229771/Cliente-Logo-Banco-Azteca_scpsmo.png"
-                alt="Person"
-              />
-            </div>
-            <div>
-              <img
-                className="object-cover w-24 h-24 rounded-full shadow"
-                src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt="Person"
-              />
-            </div>
-            <div>
-              <img
-                className="object-cover w-24 h-24 rounded-full shadow"
-                src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt="Person"
-              />
-            </div>
-            <div>
-              <img
-                className="object-cover w-24 h-24 rounded-full shadow"
-                src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt="Person"
-              />
-            </div>
+        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+            <h2 class="max-w-lg mb-6 font-montserrat text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+              <span class="relative inline-block">
+                <svg
+                  viewBox="0 0 52 24"
+                  fill="currentColor"
+                  class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                >
+                  <defs>
+                    <pattern
+                      id="1d4040f3-9f3e-4ac7-b117-7d4009658ced"
+                      x="0"
+                      y="0"
+                      width=".135"
+                      height=".30"
+                    >
+                      <circle cx="1" cy="1" r=".7"></circle>
+                    </pattern>
+                  </defs>
+                  <rect
+                    fill="url(#1d4040f3-9f3e-4ac7-b117-7d4009658ced)"
+                    width="52"
+                    height="24"
+                  ></rect>
+                </svg>
+                <span class="relative">Alianzas y bancos</span>
+              </span>
+            </h2>
+          </div>
+          <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741222515/argis-removebg-preview_biujaa.png' title='ARGIS' subtitle='Servicios de consultoría y administración'/>
+            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741223012/multiplica_qtrk1i.png' title='Multiplica tu nómina' subtitle=''/>
+            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741223070/abono_hanyzj.png' title='Tu abono cuenta' subtitle='by Financiera SAM'/>
+            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741229771/Cliente-Logo-Banco-Azteca_scpsmo.png' title='Banco Azteca' subtitle=''/>
+            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741309933/santanderlogo-removebg-preview_uuz6cu.png' title='Santander' subtitle=''/>
+            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741310140/inbursa-removebg-preview_su5yt4.png' title='Inbursa' subtitle=''/>
+            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741310205/citi-removebg-preview_snnamc.png' title='CitiBanamex' subtitle=''/>
+            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741310286/bbvalogo_bzxazu.png' title='BBVA' subtitle=''/>
+            <CompanyItems url='https://res.cloudinary.com/gusironhack/image/upload/v1741310366/stp_iincet.png' title='STP' subtitle=''/>
           </div>
         </div>
 
