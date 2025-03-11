@@ -48,9 +48,9 @@ const App = () => {
             path="/productos/adelanto-nomina"
             element={<AdvantageLoan />}
           />
-          <Route path="/productos/atman-pay" element={<AtmanPay />} />
-          <Route path="/productos/atman-pay/personas" element={<People />} />
-          <Route path="/productos/atman-pay/empresas" element={<Company />} />
+          <Route path="/productos/garc-pay" element={<AtmanPay />} />
+          <Route path="/productos/garc-pay/personas" element={<People />} />
+          <Route path="/productos/garc-pay/empresas" element={<Company />} />
           <Route path="/productos/tarjeta" element={<CreditCard />} />
           <Route path="/productos/consultoria" element={<Consulting />} />
           <Route path="/educational" element={<Educational />} />

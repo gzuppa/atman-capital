@@ -106,7 +106,7 @@ const AtmanPay = () => {
                 </ul>
                 <div>
                   <a
-                    href="/productos/atman-pay/personas"
+                    href="/productos/garc-pay/personas"
                     class="animate-fade-right inline-flex items-center font-medium text-xl mb-2 text-principalAmber hover:text-purple-800 dark:text-principalAmber dark:hover:text-purple-700"
                   >
                     Personas
@@ -126,7 +126,7 @@ const AtmanPay = () => {
                 </div>
                 <div>
                   <a
-                    href="/productos/atman-pay/empresas"
+                    href="/productos/garc-pay/empresas"
                     class="animate-fade-right inline-flex items-center text-xl font-medium text-principalAmber hover:text-purple-800 dark:text-principalAmber dark:hover:text-purple-700 mb-6 lg:mb-0"
                   >
                     Empresas
@@ -147,7 +147,7 @@ const AtmanPay = () => {
               </div>
               <img
                 class=" w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear"
-                src="https://res.cloudinary.com/gusironhack/image/upload/v1730261708/cell-atman.png"
+                src="https://res.cloudinary.com/gusironhack/image/upload/v1730137990/Atman/iphone-nobg.png"
                 alt="cellphone"
               />
             </div>

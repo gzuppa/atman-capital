@@ -75,7 +75,7 @@ const FirstSection = () => {
                 <br />
               </h1>
               <div class="my-4">
-                <NavLink to={"/productos/atman-pay"}>
+                <NavLink to={"/productos/garc-pay"}>
                   <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
                     Conoce más
                   </button>
@@ -95,7 +95,7 @@ const FirstSection = () => {
                 <br />
               </h1>
               <div class="my-4">
-                <NavLink to={"/productos/atman-pay"}>
+                <NavLink to={"/productos/garc-pay"}>
                   <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
                     Conoce más
                   </button>
@@ -135,7 +135,7 @@ const FirstSection = () => {
                 <br />
               </h1>
               <div class="my-4">
-                <NavLink to={"/productos/atman-pay"}>
+                <NavLink to={"/productos/garc-pay"}>
                   <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
                     Conoce más
                   </button>
