@@ -9,7 +9,7 @@ const ThirdSection = () => {
 
   const CompanyDescriptionItem = ({ text }) => {
     return (
-      <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2 grid content-center">
+      <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2 grid content-start">
         <p className="text-sm text-gray-900">{text}</p>
       </div>
     );

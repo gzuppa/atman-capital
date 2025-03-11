@@ -115,7 +115,7 @@ const SecondSection = () => {
             <h6 className="mb-2 font-semibold leading-5 dark:text-white">
               Valores
             </h6>
-            <div className="grid grid-cols-2 grid-rows-2 gap-2 row-gap-2">
+            <div className="grid grid-cols-2 grid-rows-2 gap-2 row-gap-2 justify-items-center">
               <ListItem text="Oportunidad" />
               <ListItem text="Confianza" />
               <ListItem text="Honestidad" />
