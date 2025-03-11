@@ -12,38 +12,6 @@ const FooterLinks = [
     link: "/terminos",
   },
 ];
-// const HelpLinks = [
-//   {
-//     title: "Customer Support",
-//     link: "/#support",
-//   },
-//   {
-//     title: "Delivery Details",
-//     link: "/#delivery-details",
-//   },
-//   {
-//     title: "Terms & Conditions",
-//     link: "/terminos",
-//   },
-//   {
-//     title: "Privacy Policy",
-//     link: "/#policy",
-//   },
-// ];
-// const ResourcesLinks = [
-//   {
-//     title: "Free Ebooks",
-//     link: "/#ebooks",
-//   },
-//   {
-//     title: "How To Blog",
-//     link: "/#blogs",
-//   },
-//   {
-//     title: "Subscribe TCJ",
-//     link: "https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ?sub_confirmation=1",
-//   },
-// ];
 
 const Footer = () => {
   return (
@@ -53,7 +21,7 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-              © 2023 GARC
+              © 2025 GARCFS
             </h1>
             <a
               className="text-sm hover:text-principalAmber duration-300"

@@ -18,10 +18,10 @@ const Terms = () => {
             <div>
               <p className="text-gray-900 dark:text-white">
                 Términos y Condiciones (los “Términos y Condiciones”) para el
-                uso, regulación y acceso de la PÁGINA WEB
-                http://www.atmancredit.com/ así como cualquier subdominio o
-                página referenciada propiedad de Grupo Atman, SAPI de CV.
-                (“Atman”), (conjuntamente el “Sitio”).
+                uso, regulación y acceso de la PÁGINA WEB http://www.garcfs.mx/
+                así como cualquier subdominio o página referenciada propiedad de
+                Grupo GARC FINANCIAL SERVICES, SAPI de CV. (“GARC”),
+                (conjuntamente el “Sitio”).
                 <br />
                 <br />
                 2.- Desde que el Usuario accede y navega en el Sitio, reconoce
@@ -38,7 +38,7 @@ const Terms = () => {
                 <br />
                 <br />
                 4.- Cualquier modificación al presente documento, se entenderá
-                por realizada cuando Atman lo considere apropiado, siendo
+                por realizada cuando GARC lo considere apropiado, siendo
                 exclusiva responsabilidad del Usuario asegurarse de tomar
                 conocimiento de tales modificaciones.
                 <br />
@@ -59,18 +59,15 @@ const Terms = () => {
                 actualizar los datos personales conforme resulte necesario.
                 <br />
                 <br />
-                7.- El Usuario señala, bajo protesta de decir verdad, que es
-                mayor de edad y que cuenta con la capacidad jurídica para
-                realizar las actividades que se contienen en el Sitio, así como
-                que toda la información y documentación que ha proporcionado y/o
-                proporcione en relación con cualquier actividad que se promueva
-                en el Sitio, es verdadera, completa y correcta, quedando, por
-                ende, obligada a indemnizar y sacar en paz y a salvo a Atman de
-                cualquier daño, perjuicio, demanda y/o acción que dicha omisión
-                o falsedad le provoque.
+                6.- El Usuario deberá completar el formulario de forma
+                obligatoria para poder tener una cuenta en la plataforma y
+                utilizar los Servicios que brinda la misma, el formulario deberá
+                llenarse con información personal de manera exacta y precisa,
+                así como los demás campos requeridos, el Usuario se obliga a
+                actualizar los datos personales conforme resulte necesario.
                 <br />
                 <br />
-                8.- El Usuario se hace sabedor que tanto Atman como cualquier
+                8.- El Usuario se hace sabedor que tanto GARC como cualquier
                 tercero designado por dicha sociedad, podrá iniciar cualquier
                 tipo de procedimiento contencioso en su contra, en caso de
                 incumplimiento a cualquiera de los Términos y Condiciones del
@@ -81,9 +78,9 @@ const Terms = () => {
                 económicos utilizados en relación con las actividades que se
                 promueven en el Sitio provienen y provendrán de fuentes lícitas
                 y serán utilizados para actividades lícitas en todo momento, a
-                sabiendas de que en caso contrario Atman procederá a realizar
+                sabiendas de que en caso contrario GARC procederá a realizar
                 todas las acciones a que haya lugar, quedando además obligado el
-                Usuario a indemnizar y sacar en paz y a salvo a Atman de
+                Usuario a indemnizar y sacar en paz y a salvo a GARC de
                 cualquier daño, perjuicio, demanda y/o acción que dicho
                 incumplimiento le provoque.
                 <br />
@@ -96,14 +93,14 @@ const Terms = () => {
                 Valores, según la Ley de Instituciones de Crédito.
                 <br />
                 <br />
-                11.- El Usuario acepta y reconoce que Atman solamente actuará,
-                en su caso, como mandante para prestar los recursos del Usuario
-                a nombre y por cuenta de este, a terceros interesados en obtener
+                11.- El Usuario acepta y reconoce que GARC solamente actuará, en
+                su caso, como mandante para prestar los recursos del Usuario a
+                nombre y por cuenta de este, a terceros interesados en obtener
                 préstamos. Por ende, cualquier monto que sea prestado a
                 cualquier persona por virtud de las actividades contenidas en el
                 Sitio, es a la exclusiva cuenta y riesgo del Usuario. Dichos
                 recursos de ninguna forma y en ningún momento serán propiedad de
-                Atman. Atman por ningún motivo y bajo ninguna causa o
+                GARC. GARC por ningún motivo y bajo ninguna causa o
                 circunstancia será responsable, obligado solidario o de forma
                 alguna responderá por el pago que deberán hacer los terceros que
                 reciban recursos del Usuario por virtud de las actividades
@@ -113,13 +110,13 @@ const Terms = () => {
                 12.- El Usuario acepta y reconoce que toda la información y/o
                 cualquier análisis de riesgo, crédito, calificación de otros
                 usuarios del Sitio y/o terceros interesados en obtener a crédito
-                los recursos del Usuario, que haga Atman e incluya en el Sitio
+                los recursos del Usuario, que haga GARC e incluya en el Sitio
                 y/o por cualquier otro medio se las haga conocer, son solamente
                 estimados y para efectos informativos.
                 <br />
                 <br />
                 13.- El Usuario acepta y reconoce que toda la información
-                contenida en el Sitio, así como aquella que Atman podrá
+                contenida en el Sitio, así como aquella que GARC podrá
                 entregarle, ya sea en forma escrita, electrónica o verbal, es
                 información cuyo contenido el Usuario se obliga a proteger
                 dándole el carácter de confidencial (en adelante la “Información
@@ -128,13 +125,13 @@ const Terms = () => {
                 información técnica, información de terceros y/o otros usuarios
                 del Sitio, información comercial relativa a la organización y
                 actividades del Sitio, conocimientos técnicos y contractuales de
-                Atman
+                GARC
                 <br />
                 <br />
                 14.- El Usuario acepta y reconoce que dentro de la Información
-                Confidencial que le será entregada por Atman, podrán existir
+                Confidencial que le será entregada por GARC, podrán existir
                 secretos industriales, entendiendo por éstos toda aquella
-                información propiedad de Atman de aplicación industrial y
+                información propiedad de GARC de aplicación industrial y
                 comercial que le permite obtener y mantener, entre otras cosas,
                 ventajas económicas y de mercado frente a sus competidores. El
                 Usuario está de acuerdo y acepta conservar la Información
@@ -152,8 +149,8 @@ const Terms = () => {
                 Información Confidencial es una violación a la legislación
                 vigente e incluso puede constituir la comisión de un delito. En
                 caso de que el Usuario revele la Información Confidencial deberá
-                indemnizar a Atman de cualquier pérdida, daño, perjuicio, cargo
-                o gastos (incluyendo honorarios de abogados) que resulten. Atman
+                indemnizar a GARC de cualquier pérdida, daño, perjuicio, cargo o
+                gastos (incluyendo honorarios de abogados) que resulten. GARC
                 tiene la convicción de proteger la Información Confidencial
                 proporcionada por el Usuario y es el responsable de su
                 tratamiento cuando sea recabada a través del Sitio.
@@ -165,7 +162,7 @@ const Terms = () => {
                 comercial de dicha información.
                 <br />
                 <br />
-                17.- Atman tendrá en todo tiempo y lugar el derecho de bloquear
+                17.- GARC tendrá en todo tiempo y lugar el derecho de bloquear
                 el acceso o remover en forma parcial o total toda información,
                 comunicación o material que a su exclusivo juicio pueda
                 resultar: i) abusivo, difamatorio u obsceno; ii) fraudulento,
@@ -178,21 +175,21 @@ const Terms = () => {
                 <br />
                 18.- El Usuario acepta y reconoce que, al proporcionar la
                 información de carácter personal requerida en alguno de los
-                servicios que se prestan en este Sitio, será tratada por Atman
+                servicios que se prestan en este Sitio, será tratada por GARC
                 con absoluta confidencialidad conforme a la Ley Federal de
                 Protección de Datos Personales en Posesión de los Particulares.
                 <br />
                 <br />
                 19.- El Sitio, los logotipos y todo el material que aparece en
                 dicho Sitio, son marcas, nombres de dominio, nombres comerciales
-                y obras artísticas propiedad de Atman y/o sus respectivos
+                y obras artísticas propiedad de GARC y/o sus respectivos
                 titulares y están protegidos por los tratados internacionales y
                 las leyes aplicables en materia de propiedad intelectual y
                 derechos de autor. Los derechos de autor sobre el contenido,
                 organización, recopilación, compilación, información, logotipos,
                 fotografías, imágenes, programas, aplicaciones, y en general
                 cualquier información contenida o publicada en el Sitio se
-                encuentran debidamente protegidos a favor de Atman, sus
+                encuentran debidamente protegidos a favor de GARC, sus
                 afiliados, proveedores y/o de sus respectivos propietarios, de
                 conformidad con la legislación aplicable en materia de propiedad
                 intelectual e industrial.
@@ -206,13 +203,13 @@ const Terms = () => {
                 <br />
                 <br />
                 21.- El Usuario asume en este acto la obligación de notificar a
-                Atman, sobre cualquier uso o violación de parte de terceros de
+                GARC, sobre cualquier uso o violación de parte de terceros de
                 las marcas o cualesquiera otros derechos de propiedad industrial
-                o intelectual propiedad de Atman, tan pronto como el Usuario
+                o intelectual propiedad de GARC, tan pronto como el Usuario
                 tenga conocimiento de dichas violaciones o usos indebidos.
                 <br />
                 <br />
-                22.-El Usuario acepta y reconoce que Atman podrá utilizar
+                22.-El Usuario acepta y reconoce que GARC podrá utilizar
                 “Cookies”. Las Cookies son pequeños archivos que se instalan en
                 el disco duro, con una duración limitada en el tiempo que ayudan
                 a personalizar los servicios. El Sitio ofrece ciertas
@@ -220,16 +217,16 @@ const Terms = () => {
                 Cookies.
                 <br />
                 <br />
-                23.- El Usuario acepta y reconoce que Atman podrá utilizar “Web
+                23.- El Usuario acepta y reconoce que GARC podrá utilizar “Web
                 Beacons”. Una Web Beacon es una imagen electrónica, también
                 llamada single-pixel (1x1) o pixel transparente, que es colocada
                 en código de una página Web. Una Web Beacon tiene finalidades
                 similares a las Cookies.
                 <br />
                 <br />
-                24.- Atman realizará su mejor esfuerzo para mantener el Sitio
+                24.- GARC realizará su mejor esfuerzo para mantener el Sitio
                 operando correctamente y libre de virus electrónicos. No
-                obstante, lo anterior, Atman por ningún motivo garantiza la
+                obstante, lo anterior, GARC por ningún motivo garantiza la
                 ausencia de virus, errores, desactivadores o cualquier otro
                 material contaminante o con funciones destructivas en la
                 información o programas disponibles en o a través del Sitio y/o
@@ -238,21 +235,21 @@ const Terms = () => {
                 firewalls y demás sistema de seguridad electrónica.
                 <br />
                 <br />
-                25.- El Usuario acepta y reconoce que Atman podrá realizar el
+                25.- El Usuario acepta y reconoce que GARC podrá realizar el
                 mantenimiento y cambios que considere adecuados o necesarios
                 para el Sitio, por lo que el Sitio podrá estar inhábil o
-                desactivado, sin responsabilidad alguna a cargo de Atman,
-                durante el tiempo en que se esté realizando dicho mantenimiento
-                o cambio. El Usuario será informado a través de correo
+                desactivado, sin responsabilidad alguna a cargo de GARC, durante
+                el tiempo en que se esté realizando dicho mantenimiento o
+                cambio. El Usuario será informado a través de correo
                 electrónico, la(s) opción(es) para poder tener acceso al
-                Servicio de Atman, mientras se restablezca la plataforma por
+                Servicio de GARC, mientras se restablezca la plataforma por
                 cualquier falla o mantenimiento que llegara a surgir.
                 <br />
                 <br />
                 26.- El Usuario reconoce que todos los elementos de la página,
                 la información y materiales contenidos en la misma, las marcas,
                 la estructura, selección y presentación de sus contenidos, y los
-                programas utilizados, son propiedad intelectual de Atman. Y que
+                programas utilizados, son propiedad intelectual de GARC. Y que
                 el uso de la plataforma no le atribuye respecto a dichos
                 derechos de propiedad industrial e intelectual ningún otro
                 derecho distinto de los específicamente contemplados en estos
