@@ -2,6 +2,32 @@ import { Stack } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
 const FirstSection = () => {
+  const ProductItem = ({ imgUrl, title, link }) => {
+    return (
+      <div class="bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+        <div class="relative">
+          <img
+            class="w-full h-80 rounded-xl object-cover"
+            src={imgUrl}
+            alt="Colors"
+          />
+        </div>
+        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">
+          {title}
+          <br></br>
+          <br />
+        </h1>
+        <div class="my-4">
+          <NavLink to={link}>
+            <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
+              Conoce más
+            </button>
+          </NavLink>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div
       class="py-10 bg-gradient-to-tr bg-gray-50 dark:bg-gray-800 flex justify-center items-center font-montserrat"
@@ -23,125 +49,36 @@ const FirstSection = () => {
         </Stack>
         <Stack>
           <div class="md:px-4 md:grid md:grid-cols-1 lg:grid-cols-3 lg:px-60 gap-5 space-y-">
-            <div class="bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
-              <div class="relative">
-                <img
-                  class="w-full h-80 rounded-xl"
-                  src="https://res.cloudinary.com/gusironhack/image/upload/v1730138179/Atman/products1.png"
-                  alt="Colors"
-                />
-              </div>
-              <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">
-                Créditos<br></br>
-                <br />
-              </h1>
-              <div class="my-4">
-                <NavLink to={"/productos/creditos"}>
-                  <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
-                    Conoce más
-                  </button>
-                </NavLink>
-              </div>
-            </div>
-            <div class="bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
-              <div class="relative">
-                <img
-                  class="w-full h-80 rounded-xl"
-                  src="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/products4.jpg"
-                  alt="Colors"
-                />
-              </div>
-              <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">
-                Consultoría y asesoría financiera
-              </h1>
-              <div class="my-4">
-                <NavLink to={"/productos/consultoria"}>
-                  <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
-                    Conoce más
-                  </button>
-                </NavLink>
-              </div>
-            </div>
-            <div class="bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
-              <div class="relative">
-                <img
-                  class="w-full h-80 rounded-xl"
-                  src="https://res.cloudinary.com/gusironhack/image/upload/v1741225366/moneyexchange_ramqap.jpg"
-                  alt="Colors"
-                />
-              </div>
-              <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">
-                Money Exchange<br></br>
-                <br />
-              </h1>
-              <div class="my-4">
-                <NavLink to={"/productos/garc-pay"}>
-                  <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
-                    Conoce más
-                  </button>
-                </NavLink>
-              </div>
-            </div>
-            <div class="bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
-              <div class="relative">
-                <img
-                  class="w-full h-80 rounded-xl"
-                  src="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/product2.png"
-                  alt="Colors"
-                />
-              </div>
-              <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">
-                GARC Pay<br></br>
-                <br />
-              </h1>
-              <div class="my-4">
-                <NavLink to={"/productos/garc-pay"}>
-                  <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
-                    Conoce más
-                  </button>
-                </NavLink>
-              </div>
-            </div>
-            <div class="bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
-              <div class="relative">
-                <img
-                  class="w-full h-80 rounded-xl"
-                  src="https://res.cloudinary.com/gusironhack/image/upload/v1730138171/Atman/products3.jpg"
-                  alt="Colors"
-                />
-              </div>
-              <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">
-                GARC Credit card<br></br>
-                <br />
-              </h1>
-              <div class="my-4">
-                <NavLink to={"/productos/tarjeta"}>
-                  <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
-                    Conoce más
-                  </button>
-                </NavLink>
-              </div>
-            </div>
-            <div class="bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
-              <div class="relative">
-                <img
-                  class="w-full h-80 rounded-xl"
-                  src="https://res.cloudinary.com/gusironhack/image/upload/v1741225441/carleasing_x9jf5q.jpg"
-                  alt="Colors"
-                />
-              </div>
-              <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">
-                Leasing & Factoring<br></br>
-                <br />
-              </h1>
-              <div class="my-4">
-                <NavLink to={"/productos/garc-pay"}>
-                  <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
-                    Conoce más
-                  </button>
-                </NavLink>
-              </div>
-            </div>
+            <ProductItem
+              imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1730138179/Atman/products1.png"
+              title="Créditos"
+              link="/productos/creditos"
+            />
+            <ProductItem
+              imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/products4.jpg"
+              title="Consultoría y asesoría financiera"
+              link="/productos/consultoria"
+            />
+            <ProductItem
+              imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1741225366/moneyexchange_ramqap.jpg"
+              title="Money Exchange"
+              link="/productos/garc-pay"
+            />
+            <ProductItem
+              imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/product2.png"
+              title="GARC Pay"
+              link="/productos/garc-pay"
+            />
+            <ProductItem
+              imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1730138171/Atman/products3.jpg"
+              title="GARC Credit card"
+              link="/productos/tarjeta"
+            />
+            <ProductItem
+              imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1741744832/carlease_cakc46.jpg"
+              title="Leasing & Factoring"
+              link="/productos/tarjeta"
+            />
           </div>
         </Stack>
       </Stack>

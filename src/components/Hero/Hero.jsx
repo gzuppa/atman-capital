@@ -5,6 +5,13 @@ const Hero = () => {
   return (
     <div class="min-h-screen flex justify-center items-center bg-hero bg-fixed bg-no-repeat bg-cover bg-center">
       <Stack spacing={2}>
+        <div className="flex justify-center">
+          <img
+            src="https://res.cloudinary.com/gusironhack/image/upload/v1741744671/logoNoLetter_sqrbue.png"
+            alt=""
+            className="w-48"
+          />
+        </div>
         <h1 class="font-montserrat text-6xl text-white font-bold text-center">
           GARC
         </h1>
