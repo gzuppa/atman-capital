@@ -138,7 +138,7 @@ const Leasing = () => {
       setOpen(false);
     };
 
-    const ListItem = ({text}) => {
+    const ListItem = ({ text }) => {
       return (
         <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group">
           <div className="mr-2">
@@ -160,15 +160,15 @@ const Leasing = () => {
             {text}
           </span>
         </div>
-      )
-    }
+      );
+    };
 
     return (
       <>
         <button
           type="button"
           onClick={handleClickOpen}
-          class="inline-flex items-center transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 pb-2 dark:text-gray-300"
+          class="inline-flex items-center transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 pb-2 dark:text-gray-300    "
         >
           Persona física asalariada
           <svg
@@ -197,11 +197,11 @@ const Leasing = () => {
                 </h2>
               </div>
               <div className="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl">
-                <ListItem text='Solicitud de servicios llena y firmada' />
-                <ListItem text='Copia de los últimos 3 meses de recibos de nómina ( 6 quincenas)' />
-                <ListItem text='Carta de autorización para consulta de buró de crédito original y firmada' />
-                <ListItem text='Copia de INE o Pasaporte vigente' />
-                <ListItem text='Comprobante de domicilio con antigüedad menor a 3 meses. (Luz, teléfono, TV de paga)' />
+                <ListItem text="Solicitud de servicios llena y firmada" />
+                <ListItem text="Copia de los últimos 3 meses de recibos de nómina ( 6 quincenas)" />
+                <ListItem text="Carta de autorización para consulta de buró de crédito original y firmada" />
+                <ListItem text="Copia de INE o Pasaporte vigente" />
+                <ListItem text="Comprobante de domicilio con antigüedad menor a 3 meses. (Luz, teléfono, TV de paga)" />
               </div>
             </div>
           </DialogContent>
@@ -219,7 +219,7 @@ const Leasing = () => {
       setOpen(false);
     };
 
-    const ListItem = ({text}) => {
+    const ListItem = ({ text }) => {
       return (
         <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group">
           <div className="mr-2">
@@ -241,8 +241,8 @@ const Leasing = () => {
             {text}
           </span>
         </div>
-      )
-    }
+      );
+    };
 
     return (
       <>
@@ -272,7 +272,7 @@ const Leasing = () => {
             <div className="font-montserrat px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
               <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                <span className="relative inline-block">
+                  <span className="relative inline-block">
                     <svg
                       viewBox="0 0 52 24"
                       fill="currentColor"
@@ -295,18 +295,20 @@ const Leasing = () => {
                         height="24"
                       />
                     </svg>
-                    <span className="relative">Persona física / Profesionista independiente</span>
+                    <span className="relative">
+                      Persona física / Profesionista independiente
+                    </span>
                   </span>
                 </h2>
               </div>
               <div className="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl">
-                <ListItem text='Solicitud de servicios llena y firmada' />
-                <ListItem text='Copia de los últimos 3 meses de estados de cuenta bancarios de su cuenta principal de ingresos' />
-                <ListItem text='Carta de autorización para consulta de buró de crédito' />
-                <ListItem text='Copia de INE o Pasaporte vigente' />
-                <ListItem text='Copia de cédula de RFC' />
-                <ListItem text='Comprobante de domicilio con antigüedad menor a 3 meses. (Luz, teléfono, TV de paga)' />
-                <ListItem text='Constancia de cumplimiento de obligaciones fiscales de SAT' />
+                <ListItem text="Solicitud de servicios llena y firmada" />
+                <ListItem text="Copia de los últimos 3 meses de estados de cuenta bancarios de su cuenta principal de ingresos" />
+                <ListItem text="Carta de autorización para consulta de buró de crédito" />
+                <ListItem text="Copia de INE o Pasaporte vigente" />
+                <ListItem text="Copia de cédula de RFC" />
+                <ListItem text="Comprobante de domicilio con antigüedad menor a 3 meses. (Luz, teléfono, TV de paga)" />
+                <ListItem text="Constancia de cumplimiento de obligaciones fiscales de SAT" />
               </div>
             </div>
           </DialogContent>
@@ -324,7 +326,7 @@ const Leasing = () => {
       setOpen(false);
     };
 
-    const ListItem = ({text}) => {
+    const ListItem = ({ text }) => {
       return (
         <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group">
           <div className="mr-2">
@@ -346,8 +348,8 @@ const Leasing = () => {
             {text}
           </span>
         </div>
-      )
-    }
+      );
+    };
 
     return (
       <>
@@ -377,7 +379,7 @@ const Leasing = () => {
             <div className="font-montserrat px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
               <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                 <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                <span className="relative inline-block">
+                  <span className="relative inline-block">
                     <svg
                       viewBox="0 0 52 24"
                       fill="currentColor"
@@ -405,17 +407,17 @@ const Leasing = () => {
                 </h2>
               </div>
               <div className="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl">
-                <ListItem text='Solicitud de servicios llena y firmada' />
-                <ListItem text='Presentación o currículum de la empresa' />
-                <ListItem text='Últimos 3 estados financieros anuales (2017, 2018 y 2019)' />
-                <ListItem text='Estados financieros parciales 2020 sin exceder 3 meses de antigüedad' />
-                <ListItem text='Relación patrimonial del aval' />
-                <ListItem text='Carta de autorización para consulta de buró de crédito ( Empresa y Aval)' />
-                <ListItem text='Acta constitutiva con datos de inscripción al RPPC' />
-                <ListItem text='Poderes para actos de administración con datos de inscripción al RPPC' />
-                <ListItem text='Copia de cédula de RFC ( Empresa y Aval)' />
-                <ListItem text='Comprobante de domicilio con antigüedad menor a 3 meses' />
-                <ListItem text='Constancia de cumplimiento de obligaciones fiscales de SAT' />
+                <ListItem text="Solicitud de servicios llena y firmada" />
+                <ListItem text="Presentación o currículum de la empresa" />
+                <ListItem text="Últimos 3 estados financieros anuales (2017, 2018 y 2019)" />
+                <ListItem text="Estados financieros parciales 2020 sin exceder 3 meses de antigüedad" />
+                <ListItem text="Relación patrimonial del aval" />
+                <ListItem text="Carta de autorización para consulta de buró de crédito ( Empresa y Aval)" />
+                <ListItem text="Acta constitutiva con datos de inscripción al RPPC" />
+                <ListItem text="Poderes para actos de administración con datos de inscripción al RPPC" />
+                <ListItem text="Copia de cédula de RFC ( Empresa y Aval)" />
+                <ListItem text="Comprobante de domicilio con antigüedad menor a 3 meses" />
+                <ListItem text="Constancia de cumplimiento de obligaciones fiscales de SAT" />
               </div>
             </div>
           </DialogContent>
@@ -423,7 +425,6 @@ const Leasing = () => {
       </>
     );
   };
-
 
   return (
     <div className="px-4 font-montserrat py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 dark:bg-gray-800">

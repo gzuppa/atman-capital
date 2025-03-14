@@ -20,7 +20,7 @@ const SecondSection = () => {
   return (
     <>
       <section
-        class="bg-gray-50 dark:bg-gray-800 font-montserrat"
+        class="bg-gray-300 dark:bg-gray-800 font-montserrat"
         data-aos="fade-down"
       >
         <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">

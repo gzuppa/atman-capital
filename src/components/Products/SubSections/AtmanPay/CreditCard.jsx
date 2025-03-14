@@ -12,7 +12,7 @@ const CreditCard = () => {
           <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
             <img
               class=" w-full mb-4 rounded-lg lg:mb-0 lg:flex animate-fade-up animate-once animate-duration-[3000ms] animate-ease-linear"
-              src="https://res.cloudinary.com/gusironhack/image/upload/v1730261699/atman-card.png"
+              src="https://res.cloudinary.com/gusironhack/image/upload/v1741926091/WhatsApp_Image_2025-03-13_at_9.52.52_AM-removebg-preview_weo2ga.png"
               alt="cellphone"
             />
             <div class="text-gray-500 sm:text-lg dark:text-gray-400">

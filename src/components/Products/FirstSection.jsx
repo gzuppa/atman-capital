@@ -12,14 +12,14 @@ const FirstSection = () => {
             alt="Colors"
           />
         </div>
-        <h1 class="mt-4 text-gray-800 text-xl font-bold cursor-pointer text-center">
+        <h1 class="mt-4 text-gray-800 text-md font-bold cursor-pointer text-center">
           {title}
           <br></br>
           <br />
         </h1>
         <div class="my-4">
           <NavLink to={link}>
-            <button class="mt-4 text-sm w-full text-white bg-principalAmber py-2 rounded-xl shadow-lg">
+            <button class="mt-4 text-sm w-full text-white dark:brightness-100 hover:shadow-lg hover:shadow-gray-700/60 hover:scale-105 rounded-xl bg-gradient-to-br from-gray-800 via-gray-600 to-gray-800 hover:from-gray-700 hover:via-gray-800 hover:to-gray-600 transition ease-in-out py-2 rounded-xl shadow-lg">
               Conoce más
             </button>
           </NavLink>

@@ -65,30 +65,9 @@ const Educational = () => {
         class="px-6 lg:px-40 font-montserrat bg-gray-50 dark:bg-gray-800"
       >
         <p class="pt-10 mb-6 text-center text-gray-900 dark:text-white text-md">
-          Es importante el manejo que le des tanto a tus finanzas empresariales
-          como a tus finanzas personales y familiares, te recomendamos que
-          ahorres una parte de tu ingreso para cumplir metas a mediano o largo
-          plazo, pero como sabemos que a veces hay imprevistos y o situaciones
-          en las cuales es necesario una ayuda extra, recuerda que en Dracma
-          Capital Services siempre podrás contar con el respaldo económico
-          cuando más lo necesites, el crédito o préstamo es una herramienta que
-          te puede ayudar a salir de esas situaciones no previstas o cumplir
-          metas y esos sueños que te has propuesto.
+        Es importante el manejo que le des tanto a tus finanzas empresariales como a tus finanzas personales y familiares, te recomendamos que ahorres una parte de tu ingreso para cumplir metas a mediano o largo plazo, pero como sabemos que a veces hay imprevistos y/o situaciones en las cuales es necesario una ayuda extra, recuerda que en GARC Financial Services siempre podrás contar con el respaldo económico cuando más lo necesites, el crédito o préstamo es una herramienta que te puede ayudar a salir de esas situaciones no previstas o cumplir metas y esos sueños que te has propuesto.
         </p>
         <p class="mt-2 pb-12 text-center text-gray-900 dark:text-white text-md">
-          Dracma Capital Services es una Sociedad Financiera de Objeto Múltiple,
-          las cuales se encuentran reguladas por la CONDUSEF y la cual establece
-          diversas obligaciones que todas las SOFOMS debemos cumplir en
-          beneficio de que tú tomes la mejor decisión a la hora de contratar un
-          crédito en el sector financiero. Infórmate de las opciones que tienes,
-          es importante que cuando solicites un crédito pidas que se te
-          expliquen a detalle, cuánto vas a pagar, cuándo, por cuánto tiempo y
-          demás características relevantes del crédito para que puedas
-          determinar si el crédito que más te conviene y no te sobre endeudes.
-          Cumplir con tus obligaciones de pago es importante ya que así evitarás
-          pagar intereses moratorios y poner en riesgo la economía empresarial,
-          existen créditos que el pago se realiza mediante domiciliación, eso
-          ayudará a que cumplas en tiempo con tu obligación de pago.
         </p>
       </div>
     </>
