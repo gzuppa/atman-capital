@@ -77,7 +77,7 @@ const FirstSection = () => {
             <ProductItem
               imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1741744832/carlease_cakc46.jpg"
               title="Leasing & Factoring"
-              link="/productos/tarjeta"
+              link="/productos/leasing"
             />
           </div>
         </Stack>

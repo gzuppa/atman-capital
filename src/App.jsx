@@ -21,6 +21,7 @@ import Contact from "./components/Products/Contact";
 import ScrollToTop from "./utils/ScrollToTop";
 import Loans from "./components/Products/SubSections/Loans";
 import Consulting from "./components/Products/SubSections/Consulting";
+import Leasing from "./components/Products/SubSections/Leasing";
 
 const App = () => {
   useEffect(() => {
@@ -53,6 +54,7 @@ const App = () => {
           <Route path="/productos/garc-pay/empresas" element={<Company />} />
           <Route path="/productos/tarjeta" element={<CreditCard />} />
           <Route path="/productos/consultoria" element={<Consulting />} />
+          <Route path="/productos/leasing" element={<Leasing />} />
           <Route path="/educational" element={<Educational />} />
           <Route path="/contacto" element={<Contact />} />
           <Route path="/terminos" element={<Terms />} />
