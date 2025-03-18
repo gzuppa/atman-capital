@@ -1,21 +1,31 @@
 import { useIsVisible } from "../../../utils/useIsVisible";
 import { Stack } from "@mui/material";
 import "./index.css";
-import { useRef } from "react";
 
 const Loans = () => {
-  // const ref1 = useRef();
-  // const isVisible1 = useIsVisible(ref1);
-  // const ref2 = useRef();
-  // const isVisible2 = useIsVisible(ref2);
-  // const ref3 = useRef();
-  // const isVisible3 = useIsVisible(ref3);
-  // const ref4 = useRef();
-  // const isVisible4 = useIsVisible(ref3);
-  // const ref5 = useRef();
-  // const isVisible5 = useIsVisible(ref3);
-  // const ref6 = useRef();
-  // const isVisible6 = useIsVisible(ref3);
+
+  const ListItem = ({text}) => {
+    return(
+      <li className="flex">
+        <span className="mr-1">
+          <svg
+            className="w-5 h-5 mt-px text-deep-purple-accent-400"
+            stroke="currentColor"
+            viewBox="0 0 52 52"
+          >
+            <polygon
+              strokeWidth="4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              fill="none"
+              points="29 13 14 29 25 29 23 39 38 23 27 23"
+            />
+          </svg>
+        </span>
+        {text}
+      </li>
+    )
+  }
 
   return (
     <Stack class="font-montserrat">
@@ -56,80 +66,12 @@ const Loans = () => {
               </p>
               <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
                 <ul className="space-y-3">
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Plazos de 12 a 60 meses
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Montos desde $2,000 hasta $350,000
-                  </li>
+                  <ListItem text='Plazos de 12 a 60 meses' />
+                  <ListItem text='Montos desde $2,000 hasta $350,000' />
                 </ul>
                 <ul className="space-y-3">
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Tasa promedio 3% sin IVA
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Sin comisiones ni aval
-                  </li>
+                  <ListItem text='Tasa promedio 3% sin IVA' />
+                  <ListItem text='Sin comisiones ni aval' />
                 </ul>
               </div>
               <p className="mt-4 mb-4 text-sm font-bold tracking-widest uppercase">
@@ -137,98 +79,13 @@ const Loans = () => {
               </p>
               <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
                 <ul className="space-y-3">
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Registro Federal de Contribuyentes
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Identificación oficial vigente
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    CURP
-                  </li>
+                  <ListItem text='Registro Federal de Contribuyentes' />
+                  <ListItem text='Identificación oficial vigente' />
+                  <ListItem text='CURP' />
                 </ul>
                 <ul className="space-y-3">
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Solicitud de crédito
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Comprobante de domicilio
-                  </li>
+                  <ListItem text='Solicitud de crédito' />
+                  <ListItem text='Comprobante de domicilio' />
                 </ul>
               </div>
             </div>
@@ -263,80 +120,12 @@ const Loans = () => {
               </p>
               <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
                 <ul className="space-y-3">
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Plazos de 1 a 18 meses
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Montos desde $2,000 hasta $100,000
-                  </li>
+                  <ListItem text='Plazos de 1 a 18 meses' />
+                  <ListItem text='Montos desde $2,000 hasta $100,000' />
                 </ul>
                 <ul className="space-y-3">
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Comisión por apertura 5% sin IVA
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Firma digital
-                  </li>
+                  <ListItem text='Comisión por apertura 5% sin IVA' />
+                  <ListItem text='Firma digital' />
                 </ul>
               </div>
               <p className="mt-4 mb-4 text-sm font-bold tracking-widest uppercase">
@@ -344,62 +133,11 @@ const Loans = () => {
               </p>
               <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
                 <ul className="space-y-3">
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Tener una cuenta bancaria
-                  </li>
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Identificación oficial vigente
-                  </li>
+                  <ListItem text='Tener una cuenta bancaria' />
+                  <ListItem text='Identificación oficial vigente' />
                 </ul>
                 <ul className="space-y-3">
-                  <li className="flex">
-                    <span className="mr-1">
-                      <svg
-                        className="w-5 h-5 mt-px text-deep-purple-accent-400"
-                        stroke="currentColor"
-                        viewBox="0 0 52 52"
-                      >
-                        <polygon
-                          strokeWidth="4"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          fill="none"
-                          points="29 13 14 29 25 29 23 39 38 23 27 23"
-                        />
-                      </svg>
-                    </span>
-                    Comprobante de domicilio
-                  </li>
+                  <ListItem text='Comprobante de domicilio' />
                 </ul>
               </div>
             </div>
@@ -558,50 +296,6 @@ const Loans = () => {
             </div>
           </section>
         </div>
-
-        {/* <div class="py-12 bg-gray-100 dark:bg-gray-900 font-montserrat flex justify-center">
-                    <div class="timeline">
-                        <h2 class="text-4xl font-extrabold text-center text-gray-700 dark:text-white mb-4">Proceso de cobranza</h2>
-                        <div class="outer">
-                            <div ref={ref1} className={`card transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
-                                <div class="info">
-                                    <h3 class="title">1</h3>
-                                    <p>Generación de listas de cobranza en sistema por periodo</p>
-                                </div>
-                            </div>
-                            <div ref={ref2} className={`card transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
-                                <div class="info">
-                                    <h3 class="title">2</h3>
-                                    <p>Envío a cobro de layout a dependencias </p>
-                                </div>
-                            </div>
-                            <div ref={ref3} className={`card transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
-                                <div class="info">
-                                    <h3 class="title">3</h3>
-                                    <p>Gestión de pagos y enteros</p>
-                                </div>
-                            </div>
-                            <div ref={ref4} className={`card transition-opacity ease-in duration-700 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
-                                <div class="info">
-                                    <h3 class="title">4</h3>
-                                    <p>Aplicación de pagos </p>
-                                </div>
-                            </div>
-                            <div ref={ref5} className={`card transition-opacity ease-in duration-700 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
-                                <div class="info">
-                                    <h3 class="title">5</h3>
-                                    <p>Dictamen de cartera </p>
-                                </div>
-                            </div>
-                            <div ref={ref6} className={`card transition-opacity ease-in duration-700 ${isVisible6 ? "opacity-100" : "opacity-0"}`}>
-                                <div class="info">
-                                    <h3 class="title">6</h3>
-                                    <p>Cobranza alterna en caso de falta de pago o bajo pago </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
         <div className="git text-center md:flex justify-center">
           <img src="https://res.cloudinary.com/gusironhack/image/upload/v1731024404/procesocobranza.gif" />
         </div>
