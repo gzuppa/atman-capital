@@ -40,6 +40,8 @@ const Contact = () => {
     { value: "Consultoría", label: "Consultoría" },
     { value: "GARCPay", label: "GARC Pay" },
     { value: "Tarjeta", label: "Tarjeta de crédito" },
+    { value: "Money exchange", label: "Money exchange" },
+    { value: "Leasing & Factoring", label: "Leasing & Factoring" },
   ];
 
   return (
@@ -141,7 +143,7 @@ const Contact = () => {
                     loading={isLoading}
                     type="submit"
                     value="Send"
-                    class="mx-auto flex rounded border-0 bg-principalAmber py-2 px-8 text-lg text-white hover:bg-principalAmber focus:outline-none"
+                    class="mx-auto flex rounded py-2 px-8 text-lg text-white dark:brightness-100 hover:shadow-lg hover:shadow-gray-700/60 hover:scale-105 rounded-xl bg-gradient-to-br from-gray-800 via-gray-600 to-gray-800 hover:from-gray-700 hover:via-gray-800 hover:to-gray-600 transition ease-in-out"
                   >
                     Enviar
                   </LoadingButton>
