@@ -3,9 +3,8 @@ import { Stack } from "@mui/material";
 import "./index.css";
 
 const Loans = () => {
-
-  const ListItem = ({text}) => {
-    return(
+  const ListItem = ({ text }) => {
+    return (
       <li className="flex">
         <span className="mr-1">
           <svg
@@ -24,8 +23,8 @@ const Loans = () => {
         </span>
         {text}
       </li>
-    )
-  }
+    );
+  };
 
   return (
     <Stack class="font-montserrat">
@@ -66,12 +65,12 @@ const Loans = () => {
               </p>
               <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
                 <ul className="space-y-3">
-                  <ListItem text='Plazos de 12 a 60 meses' />
-                  <ListItem text='Montos desde $2,000 hasta $350,000' />
+                  <ListItem text="Plazos de 12 a 60 meses" />
+                  <ListItem text="Montos desde $2,000 hasta $350,000" />
                 </ul>
                 <ul className="space-y-3">
-                  <ListItem text='Tasa promedio 3% sin IVA' />
-                  <ListItem text='Sin comisiones ni aval' />
+                  <ListItem text="Tasa promedio 3% sin IVA" />
+                  <ListItem text="Sin comisiones ni aval" />
                 </ul>
               </div>
               <p className="mt-4 mb-4 text-sm font-bold tracking-widest uppercase">
@@ -79,13 +78,13 @@ const Loans = () => {
               </p>
               <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
                 <ul className="space-y-3">
-                  <ListItem text='Registro Federal de Contribuyentes' />
-                  <ListItem text='Identificación oficial vigente' />
-                  <ListItem text='CURP' />
+                  <ListItem text="Registro Federal de Contribuyentes" />
+                  <ListItem text="Identificación oficial vigente" />
+                  <ListItem text="CURP" />
                 </ul>
                 <ul className="space-y-3">
-                  <ListItem text='Solicitud de crédito' />
-                  <ListItem text='Comprobante de domicilio' />
+                  <ListItem text="Solicitud de crédito" />
+                  <ListItem text="Comprobante de domicilio" />
                 </ul>
               </div>
             </div>
@@ -120,12 +119,12 @@ const Loans = () => {
               </p>
               <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
                 <ul className="space-y-3">
-                  <ListItem text='Plazos de 1 a 18 meses' />
-                  <ListItem text='Montos desde $2,000 hasta $100,000' />
+                  <ListItem text="Plazos de 1 a 18 meses" />
+                  <ListItem text="Montos desde $2,000 hasta $100,000" />
                 </ul>
                 <ul className="space-y-3">
-                  <ListItem text='Comisión por apertura 5% sin IVA' />
-                  <ListItem text='Firma digital' />
+                  <ListItem text="Comisión por apertura 5% sin IVA" />
+                  <ListItem text="Firma digital" />
                 </ul>
               </div>
               <p className="mt-4 mb-4 text-sm font-bold tracking-widest uppercase">
@@ -133,11 +132,11 @@ const Loans = () => {
               </p>
               <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
                 <ul className="space-y-3">
-                  <ListItem text='Tener una cuenta bancaria' />
-                  <ListItem text='Identificación oficial vigente' />
+                  <ListItem text="Tener una cuenta bancaria" />
+                  <ListItem text="Identificación oficial vigente" />
                 </ul>
                 <ul className="space-y-3">
-                  <ListItem text='Comprobante de domicilio' />
+                  <ListItem text="Comprobante de domicilio" />
                 </ul>
               </div>
             </div>

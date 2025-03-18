@@ -65,10 +65,17 @@ const Educational = () => {
         class="px-6 lg:px-40 font-montserrat bg-gray-50 dark:bg-gray-800"
       >
         <p class="pt-10 mb-6 text-center text-gray-900 dark:text-white text-md">
-        Es importante el manejo que le des tanto a tus finanzas empresariales como a tus finanzas personales y familiares, te recomendamos que ahorres una parte de tu ingreso para cumplir metas a mediano o largo plazo, pero como sabemos que a veces hay imprevistos y/o situaciones en las cuales es necesario una ayuda extra, recuerda que en GARC Financial Services siempre podrás contar con el respaldo económico cuando más lo necesites, el crédito o préstamo es una herramienta que te puede ayudar a salir de esas situaciones no previstas o cumplir metas y esos sueños que te has propuesto.
+          Es importante el manejo que le des tanto a tus finanzas empresariales
+          como a tus finanzas personales y familiares, te recomendamos que
+          ahorres una parte de tu ingreso para cumplir metas a mediano o largo
+          plazo, pero como sabemos que a veces hay imprevistos y/o situaciones
+          en las cuales es necesario una ayuda extra, recuerda que en GARC
+          Financial Services siempre podrás contar con el respaldo económico
+          cuando más lo necesites, el crédito o préstamo es una herramienta que
+          te puede ayudar a salir de esas situaciones no previstas o cumplir
+          metas y esos sueños que te has propuesto.
         </p>
-        <p class="mt-2 pb-12 text-center text-gray-900 dark:text-white text-md">
-        </p>
+        <p class="mt-2 pb-12 text-center text-gray-900 dark:text-white text-md"></p>
       </div>
     </>
   );
