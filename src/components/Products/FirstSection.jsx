@@ -48,7 +48,7 @@ const FirstSection = () => {
           </div>
         </Stack>
         <Stack>
-          <div class="md:px-4 md:grid md:grid-cols-1 lg:grid-cols-3 lg:px-60 gap-5 space-y-">
+          <div class="md:px-4 md:grid md:grid-cols-1 lg:grid-cols-3 lg:px-60 gap-5 mb-8">
             <ProductItem
               imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1730138179/Atman/products1.png"
               title="Créditos"
@@ -60,11 +60,16 @@ const FirstSection = () => {
               link="/productos/consultoria"
             />
             <ProductItem
+              imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/product2.png"
+              title="GARC Pay"
+              link="/productos/garc-pay"
+            />
+            {/* <ProductItem
               imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1741225366/moneyexchange_ramqap.jpg"
               title="Money Exchange"
               link="/productos/garc-pay"
-            />
-            <ProductItem
+            /> */}
+            {/* <ProductItem
               imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/product2.png"
               title="GARC Pay"
               link="/productos/garc-pay"
@@ -77,6 +82,18 @@ const FirstSection = () => {
             <ProductItem
               imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1741744832/carlease_cakc46.jpg"
               title="Leasing & Factoring"
+              link="/productos/leasing"
+            /> */}
+          </div>
+          <div class="md:px-4 md:grid md:grid-cols-1 lg:grid-cols-2 lg:px-80 gap-5 space-y-">
+            <ProductItem
+              imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1730138171/Atman/products3.jpg"
+              title="GARC Credit card"
+              link="/productos/tarjeta"
+            />
+            <ProductItem
+              imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1741744832/carlease_cakc46.jpg"
+              title="Leasing & Factoring by Limex"
               link="/productos/leasing"
             />
           </div>
