@@ -49,11 +49,30 @@ const FirstSection = () => {
         </Stack>
         <Stack>
           <div class="md:px-4 md:grid md:grid-cols-1 lg:grid-cols-3 lg:px-60 gap-5 mb-8">
-            <ProductItem
+            {/* <ProductItem
               imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1730138179/Atman/products1.png"
               title="Créditos"
               link="/productos/creditos"
-            />
+            /> */}
+            <div class="bg-white px-12 lg:px-6 pt-6 lg:pt-10 pb-6 lg:pb-0 mb-8 lg:mb-0 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+              <div class="relative">
+                <img
+                  class="w-full h-80 rounded-xl object-cover"
+                  src='https://res.cloudinary.com/gusironhack/image/upload/v1730138179/Atman/products1.png'
+                  alt="Colors"
+                />
+              </div>
+              <h1 class="mt-4 text-gray-800 text-md font-bold cursor-pointer text-center">
+                Créditos
+                <br></br>
+                <br />
+              </h1>
+              <div class="my-4">
+                  <button class="mt-4 text-sm w-full text-white dark:brightness-100 hover:shadow-lg hover:shadow-gray-700/60 hover:scale-105 rounded-xl bg-gradient-to-br from-gray-800 via-gray-600 to-gray-800 hover:from-gray-700 hover:via-gray-800 hover:to-gray-600 transition ease-in-out py-2 rounded-xl shadow-lg">
+                    <a href='https://tuabonoencuenta.com/#'>Conoce más</a>
+                  </button>
+              </div>
+            </div>
             <ProductItem
               imgUrl="https://res.cloudinary.com/gusironhack/image/upload/v1730138175/Atman/products4.jpg"
               title="Consultoría y asesoría financiera"

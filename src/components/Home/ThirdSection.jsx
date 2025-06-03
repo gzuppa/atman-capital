@@ -72,12 +72,12 @@ const ThirdSection = () => {
             </div>
             <div className="mb-4 transition-shadow duration-300 hover:shadow-xl lg:mb-6">
               <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
-                <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-10 lg:grid-cols-4 sm:grid-cols-2">
+                <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-10 lg:grid-cols-3 sm:grid-cols-2">
                   <div className="absolute inset-0 flex items-center justify-center sm:hidden lg:flex">
                     <div className="w-px h-full bg-gray-300 lg:w-full lg:h-px" />
                   </div>
                   <CompanyImageItem url="https://res.cloudinary.com/gusironhack/image/upload/v1741222515/argis-removebg-preview_biujaa.png" />
-                  <CompanyImageItem url="https://res.cloudinary.com/gusironhack/image/upload/v1741223012/multiplica_qtrk1i.png" />
+                  {/* <CompanyImageItem url="https://res.cloudinary.com/gusironhack/image/upload/v1741223012/multiplica_qtrk1i.png" /> */}
                   <CompanyImageItem url="https://res.cloudinary.com/gusironhack/image/upload/v1741223070/abono_hanyzj.png" />
                   {/* <CompanyImageItem url="https://res.cloudinary.com/gusironhack/image/upload/v1741223119/sossa_ynpoq1.png" /> */}
                   <CompanyImageItem url="https://res.cloudinary.com/gusironhack/image/upload/v1741223176/limex_rdvswl.png" />
@@ -87,12 +87,12 @@ const ThirdSection = () => {
 
             <div className="mb-4 transition-shadow duration-300 hover:shadow-xl lg:mb-6 hidden lg:block">
               <div className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
-                <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-10 lg:grid-cols-4 sm:grid-cols-2">
+                <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-10 lg:grid-cols-3 sm:grid-cols-2">
                   <div className="absolute inset-0 flex items-center justify-center sm:hidden lg:flex">
                     <div className="w-px h-full bg-gray-300 lg:w-full lg:h-px" />
                   </div>
                   <CompanyDescriptionItem text="Somos una empresa 100% mexicana enfocada en contribuir al desarrollo integral de nuestros clientes, ofreciendo soluciones empresariales para mejorar los procesos, planificar e implementar nuevas estrategias que permiten resolver los problemas de tu negocio y mejorar la rentabilidad de tu empresa. Nuestro equipo de especialistas y socios fundadores cuentan con  más  de 75 años de experiencia en el ramo financiero, ARGIS Consultores cuenta con un equipo de expertos y especialistas para cada proyecto." />
-                  <CompanyDescriptionItem text="Empresa 100% mexicana fundada en el año 2008, que nace para atender a un creciente número de empleados de dependencias del sector público y empresas privadas, que requieren de préstamos en efectivo. Nuestra empresa tiene como objetivo dar soluciones innovadoras e integrales para el otorgamiento de préstamos en efectivo por descuento vía nómina, garantizando tasas competitivas, servicio de alta calidad, atención personalizada, seriedad y respuestas inmediatas a las necesidades del empleado." />
+                  {/* <CompanyDescriptionItem text="Empresa 100% mexicana fundada en el año 2008, que nace para atender a un creciente número de empleados de dependencias del sector público y empresas privadas, que requieren de préstamos en efectivo. Nuestra empresa tiene como objetivo dar soluciones innovadoras e integrales para el otorgamiento de préstamos en efectivo por descuento vía nómina, garantizando tasas competitivas, servicio de alta calidad, atención personalizada, seriedad y respuestas inmediatas a las necesidades del empleado." /> */}
                   <CompanyDescriptionItem text="Somos un equipo de emprendedores profesionales con mas de 15 años de experiencia que tenemos la convicción de revolucionar los servicios financieros en México, brindando soluciones financieras y estrategias tecnológicas de cobranza, creados para apoyar a nuestros clientes en sus principales necesidades económicas e impulsar a las empresas en su crecimiento y desarrollo." />
                   {/* <CompanyDescriptionItem text="Empresa 100% mexicana fundada en el año 1992. Grupo SOSSA se ha consolidado en la prestación de servicios de consultoría especializada en diversas áreas tanto en la Comercialización y Logística de Hidrocarburos, así como en la Asesoría de Servicios Financieros ESG, Fiscales y Contables. Logrando mejoras significativas en productividad, calidad y servicio hacia nuestros clientes." /> */}
                   <CompanyDescriptionItem text="Empresa 100% mexicana. Después de estar en el negocio del arrendamiento corporativo por mas de 25 años, los fundadores de Limex Lease nos dimos a la tarea de hacer el arrendamiento (lease) como algo mas fácil y accesible para contribuir a mejorar el mundo en el que vivimos. Somos la única arrendadora de equipo “ low cost” con una gran calidad en  el servicio y consciente de nuestro  entorno." />
